@@ -8,4 +8,8 @@ autogen
 openai
 python-dotenv
 streamlit
+pandasai
+langchain-experimental
+tabulate
+flask
 -e .
