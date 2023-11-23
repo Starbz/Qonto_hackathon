@@ -1,0 +1,1001 @@
+user,date,amount,trx_category,method,team,receipt,VAT,Status
+user_3,2020-11-19,7,Restaurants,taxes,Marketing,Not needed,Missing,Executed
+user_2,2021-11-10,977,Health,direct_debit,Sales,Missing,Filled in,Declined
+user_2,2021-03-04,130,Travel,card,Marketing,Not needed,Missing,Executed
+user_3,2020-11-10,57,Mobile,direct_debit,Finance,Not needed,Missing,Executed
+user_1,2020-01-20,838,Travel,card,Finance,Attached,Missing,Processing
+user_1,2020-03-11,266,Fees,direct_debit,Marketing,Attached,Missing,Declined
+user_3,2021-07-30,302,Sport,direct_debit,IT,Missing,Filled in,Processing
+user_2,2020-01-11,380,Mobile,taxes,Marketing,Not needed,Missing,Declined
+user_1,2021-05-06,407,Restaurants,card,Sales,Attached,Missing,Processing
+user_1,2021-07-23,900,Mobile,fees,Sales,Not needed,Filled in,Executed
+user_1,2020-04-30,677,Transfer,transfer,IT,Missing,Missing,Executed
+user_3,2020-07-15,431,Hotel,taxes,Sales,Missing,Missing,Declined
+user_3,2021-03-30,106,Fees,transfer,Sales,Missing,Missing,Declined
+user_2,2020-01-19,2,Mobile,transfer,Sales,Missing,Missing,Processing
+user_1,2020-10-07,409,ATM,taxes,IT,Attached,Missing,Executed
+user_2,2021-08-07,517,Health,fees,Finance,Not needed,Filled in,Declined
+user_1,2021-02-12,373,Taxi,taxes,Sales,Missing,Filled in,Executed
+user_3,2021-07-03,539,Food & Grocery,direct_debit,Finance,Attached,Missing,Declined
+user_1,2021-11-22,410,Finance,taxes,Finance,Not needed,Filled in,Executed
+user_3,2020-05-11,913,Sport,fees,Finance,Attached,Filled in,Executed
+user_2,2021-08-25,237,Travel,fees,IT,Not needed,Missing,Processing
+user_3,2020-04-15,120,Mobile,fees,Sales,Not needed,Missing,Processing
+user_1,2020-08-16,682,Restaurants,transfer,Finance,Missing,Missing,Executed
+user_1,2020-01-15,765,Food & Grocery,taxes,HR,Missing,Filled in,Declined
+user_3,2020-04-15,1,Fees,transfer,HR,Not needed,Missing,Executed
+user_3,2020-10-27,652,Sport,transfer,HR,Attached,Filled in,Processing
+user_3,2020-08-16,343,Taxi,taxes,Sales,Missing,Missing,Executed
+user_3,2020-10-16,293,Train,card,Marketing,Missing,Filled in,Declined
+user_2,2020-08-24,14,Sport,transfer,Marketing,Not needed,Missing,Declined
+user_1,2021-06-27,981,Food & Grocery,fees,Sales,Missing,Filled in,Executed
+user_1,2021-11-29,903,ATM,direct_debit,IT,Not needed,Missing,Processing
+user_2,2020-12-07,495,Restaurants,taxes,Marketing,Attached,Missing,Processing
+user_1,2020-08-24,470,ATM,card,HR,Missing,Missing,Executed
+user_1,2020-08-24,665,Restaurants,fees,Finance,Attached,Filled in,Processing
+user_2,2020-07-28,838,Taxi,card,HR,Missing,Filled in,Declined
+user_3,2021-01-07,114,Finance,taxes,Finance,Attached,Filled in,Processing
+user_3,2020-02-28,769,Mobile,taxes,Finance,Not needed,Filled in,Executed
+user_3,2020-08-27,554,Fees,transfer,IT,Missing,Missing,Executed
+user_2,2020-03-09,798,Restaurants,taxes,HR,Attached,Missing,Executed
+user_1,2020-08-07,650,Transfer,card,Finance,Missing,Missing,Executed
+user_1,2021-05-15,956,Health,card,Marketing,Attached,Missing,Declined
+user_1,2020-04-02,870,Finance,transfer,Sales,Missing,Filled in,Declined
+user_2,2020-11-02,415,Finance,transfer,IT,Attached,Missing,Declined
+user_2,2020-06-14,145,Transfer,direct_debit,Sales,Missing,Filled in,Declined
+user_2,2021-12-12,377,Finance,card,IT,Not needed,Filled in,Processing
+user_2,2020-08-31,200,Transfer,direct_debit,Finance,Missing,Filled in,Declined
+user_1,2020-03-02,817,Gas stations,card,Finance,Attached,Filled in,Declined
+user_3,2020-02-02,424,Train,fees,HR,Not needed,Missing,Declined
+user_3,2021-05-14,774,Sport,taxes,Sales,Missing,Filled in,Executed
+user_2,2021-07-16,174,ATM,transfer,HR,Missing,Missing,Declined
+user_1,2021-10-05,866,Finance,fees,Marketing,Attached,Filled in,Declined
+user_3,2020-04-27,61,Fees,transfer,Finance,Not needed,Filled in,Processing
+user_3,2021-10-16,169,Restaurants,card,Sales,Not needed,Missing,Executed
+user_2,2020-11-18,582,Food & Grocery,taxes,Sales,Attached,Filled in,Processing
+user_1,2020-07-02,859,Finance,taxes,Marketing,Attached,Missing,Declined
+user_1,2020-02-25,195,Travel,card,HR,Attached,Missing,Executed
+user_3,2021-07-22,422,Hotel,transfer,Finance,Missing,Missing,Declined
+user_3,2020-10-24,846,ATM,direct_debit,IT,Missing,Filled in,Declined
+user_3,2020-08-30,734,Mobile,card,HR,Not needed,Filled in,Processing
+user_2,2021-09-17,498,Mobile,transfer,Finance,Not needed,Missing,Declined
+user_1,2020-10-13,56,Gas stations,fees,HR,Not needed,Missing,Processing
+user_2,2021-06-02,100,Transfer,taxes,IT,Not needed,Missing,Executed
+user_1,2021-03-17,2,Travel,fees,Marketing,Not needed,Missing,Executed
+user_2,2020-06-07,210,Health,transfer,Finance,Not needed,Missing,Executed
+user_2,2021-11-15,808,Shopping,direct_debit,HR,Not needed,Missing,Declined
+user_1,2020-07-30,876,Travel,card,HR,Attached,Missing,Processing
+user_1,2021-01-28,291,Transfer,card,Finance,Not needed,Missing,Executed
+user_1,2021-09-10,832,Sport,fees,HR,Not needed,Missing,Declined
+user_3,2020-06-25,339,Food & Grocery,card,Sales,Attached,Filled in,Declined
+user_2,2021-11-26,950,Mobile,card,IT,Not needed,Filled in,Executed
+user_3,2021-11-16,58,Food & Grocery,direct_debit,IT,Not needed,Missing,Executed
+user_3,2021-04-20,105,Shopping,transfer,HR,Missing,Missing,Processing
+user_1,2021-05-08,982,Travel,transfer,Finance,Missing,Missing,Executed
+user_3,2020-05-12,103,Taxi,taxes,IT,Attached,Missing,Executed
+user_1,2020-04-02,521,Health,transfer,Finance,Missing,Missing,Executed
+user_2,2020-08-30,272,Train,direct_debit,Finance,Attached,Filled in,Processing
+user_1,2021-05-07,746,Finance,taxes,Finance,Missing,Missing,Executed
+user_2,2020-04-25,936,Fees,card,HR,Missing,Filled in,Processing
+user_2,2020-06-03,677,Mobile,card,IT,Attached,Filled in,Executed
+user_2,2020-08-06,896,Taxi,direct_debit,Sales,Not needed,Missing,Processing
+user_2,2021-08-25,422,ATM,direct_debit,HR,Missing,Filled in,Executed
+user_3,2021-09-01,726,Finance,fees,Marketing,Not needed,Missing,Declined
+user_3,2020-03-13,96,Restaurants,direct_debit,Sales,Missing,Filled in,Processing
+user_3,2021-08-17,193,Transfer,direct_debit,HR,Missing,Filled in,Processing
+user_3,2021-02-05,353,Taxi,taxes,Sales,Not needed,Missing,Declined
+user_1,2021-02-23,927,Taxi,direct_debit,Marketing,Attached,Missing,Executed
+user_3,2021-01-25,243,ATM,taxes,Sales,Attached,Filled in,Processing
+user_1,2021-09-17,870,Gas stations,fees,Sales,Not needed,Filled in,Declined
+user_3,2020-03-16,551,Taxi,taxes,Finance,Attached,Missing,Declined
+user_2,2021-01-06,579,Mobile,direct_debit,Finance,Missing,Missing,Processing
+user_2,2020-06-11,996,Hotel,direct_debit,Marketing,Missing,Missing,Executed
+user_2,2021-01-29,696,Health,direct_debit,Sales,Attached,Missing,Declined
+user_1,2020-12-03,167,Hotel,fees,Marketing,Attached,Filled in,Processing
+user_3,2021-04-03,921,Fees,card,Marketing,Missing,Filled in,Declined
+user_3,2020-01-02,178,Taxi,taxes,Finance,Missing,Filled in,Executed
+user_2,2021-12-26,158,Finance,taxes,Finance,Missing,Missing,Declined
+user_2,2020-02-05,86,ATM,card,Finance,Attached,Missing,Processing
+user_3,2020-04-14,666,Transfer,card,IT,Missing,Missing,Executed
+user_1,2021-11-10,78,Fees,direct_debit,Marketing,Missing,Missing,Declined
+user_3,2020-01-28,667,Mobile,direct_debit,IT,Missing,Filled in,Declined
+user_1,2020-12-30,734,Mobile,direct_debit,HR,Attached,Filled in,Declined
+user_2,2021-01-26,967,Shopping,card,Marketing,Attached,Filled in,Declined
+user_2,2021-07-07,895,Sport,direct_debit,Sales,Not needed,Missing,Declined
+user_2,2020-10-17,501,Train,direct_debit,Sales,Missing,Filled in,Processing
+user_1,2020-10-12,738,Restaurants,fees,Sales,Attached,Filled in,Declined
+user_3,2020-02-21,576,Shopping,direct_debit,Marketing,Missing,Missing,Processing
+user_3,2021-08-29,971,Restaurants,taxes,HR,Attached,Filled in,Processing
+user_1,2020-11-20,677,Fees,direct_debit,Marketing,Not needed,Filled in,Processing
+user_1,2021-11-06,427,Fees,fees,HR,Not needed,Missing,Declined
+user_1,2021-10-09,151,Finance,direct_debit,IT,Not needed,Missing,Processing
+user_3,2020-02-15,475,ATM,transfer,IT,Missing,Filled in,Processing
+user_3,2020-02-01,307,Hotel,direct_debit,IT,Attached,Filled in,Executed
+user_3,2021-07-31,925,Sport,card,Finance,Attached,Filled in,Processing
+user_1,2020-07-19,108,Shopping,transfer,IT,Attached,Missing,Processing
+user_3,2020-08-25,974,Train,card,Finance,Missing,Missing,Declined
+user_2,2020-05-28,793,Fees,transfer,Sales,Attached,Missing,Processing
+user_3,2020-12-24,418,Transfer,card,HR,Missing,Missing,Executed
+user_3,2020-09-04,929,Mobile,transfer,Finance,Not needed,Missing,Processing
+user_1,2021-12-04,347,Taxi,transfer,Marketing,Not needed,Filled in,Declined
+user_2,2020-09-12,746,Sport,transfer,IT,Missing,Filled in,Declined
+user_3,2020-10-17,214,Shopping,card,Sales,Attached,Filled in,Executed
+user_1,2020-04-16,351,Fees,card,IT,Missing,Filled in,Executed
+user_1,2020-08-25,71,Shopping,fees,HR,Attached,Missing,Declined
+user_1,2021-06-06,801,Shopping,fees,HR,Attached,Missing,Executed
+user_1,2020-01-18,694,Transfer,card,Finance,Not needed,Filled in,Processing
+user_3,2021-05-07,230,Gas stations,transfer,HR,Not needed,Missing,Executed
+user_1,2021-10-13,596,Mobile,direct_debit,Sales,Attached,Filled in,Processing
+user_3,2021-01-17,490,Transfer,card,HR,Attached,Missing,Declined
+user_2,2021-07-24,287,Health,card,Marketing,Missing,Filled in,Processing
+user_1,2021-12-12,496,Hotel,transfer,HR,Attached,Filled in,Executed
+user_1,2020-09-07,406,Finance,direct_debit,Finance,Missing,Missing,Processing
+user_3,2021-01-27,765,Shopping,card,Finance,Not needed,Missing,Processing
+user_2,2021-10-07,596,Sport,fees,Finance,Attached,Missing,Executed
+user_3,2020-10-05,696,Sport,direct_debit,Marketing,Missing,Missing,Executed
+user_2,2021-05-06,656,Mobile,direct_debit,Sales,Missing,Filled in,Declined
+user_2,2020-04-07,967,Gas stations,direct_debit,IT,Attached,Missing,Executed
+user_3,2020-01-31,643,Health,direct_debit,HR,Attached,Missing,Processing
+user_1,2020-03-10,520,Fees,transfer,IT,Not needed,Filled in,Processing
+user_2,2020-12-28,840,Mobile,transfer,Sales,Not needed,Missing,Processing
+user_1,2020-03-27,532,Gas stations,fees,HR,Not needed,Missing,Executed
+user_1,2021-11-26,88,Transfer,fees,Sales,Attached,Missing,Processing
+user_3,2020-07-31,924,Taxi,taxes,HR,Not needed,Filled in,Executed
+user_1,2020-04-04,827,Transfer,fees,IT,Attached,Filled in,Declined
+user_1,2021-09-02,54,Transfer,direct_debit,HR,Missing,Missing,Processing
+user_2,2021-03-23,484,Hotel,fees,HR,Missing,Filled in,Declined
+user_3,2020-05-28,420,Sport,taxes,Finance,Attached,Filled in,Declined
+user_1,2021-03-30,278,Sport,transfer,HR,Attached,Filled in,Executed
+user_1,2021-12-27,166,Sport,transfer,Marketing,Missing,Missing,Executed
+user_3,2021-09-05,414,Shopping,fees,Sales,Not needed,Missing,Executed
+user_2,2021-09-19,702,Health,card,Marketing,Missing,Missing,Declined
+user_3,2021-01-17,3,Food & Grocery,direct_debit,Finance,Missing,Missing,Processing
+user_3,2021-06-05,841,Food & Grocery,card,IT,Attached,Missing,Executed
+user_1,2020-12-05,737,Shopping,direct_debit,Sales,Not needed,Filled in,Declined
+user_3,2021-04-15,821,Sport,transfer,HR,Not needed,Missing,Processing
+user_3,2020-04-17,807,Sport,direct_debit,Sales,Missing,Missing,Declined
+user_2,2020-01-20,677,Shopping,fees,Marketing,Attached,Missing,Processing
+user_2,2021-03-31,330,Finance,card,Marketing,Attached,Filled in,Processing
+user_2,2020-10-29,280,Gas stations,direct_debit,Marketing,Not needed,Filled in,Executed
+user_2,2021-10-15,54,Health,transfer,Sales,Not needed,Filled in,Processing
+user_2,2021-06-03,703,Gas stations,card,HR,Attached,Missing,Declined
+user_1,2020-02-02,864,Food & Grocery,taxes,Sales,Attached,Missing,Processing
+user_2,2021-06-14,2,Restaurants,taxes,HR,Attached,Missing,Executed
+user_1,2020-04-17,351,Sport,transfer,IT,Missing,Filled in,Declined
+user_2,2021-04-18,347,Fees,direct_debit,IT,Missing,Filled in,Processing
+user_2,2020-05-17,276,Taxi,taxes,Marketing,Attached,Filled in,Declined
+user_3,2021-10-26,416,Mobile,direct_debit,Marketing,Missing,Missing,Declined
+user_3,2021-09-01,586,Health,card,IT,Missing,Missing,Processing
+user_1,2021-04-02,666,Hotel,card,Marketing,Missing,Missing,Declined
+user_3,2020-06-21,208,Mobile,fees,HR,Missing,Missing,Executed
+user_2,2021-12-11,15,Taxi,transfer,Marketing,Attached,Missing,Processing
+user_3,2021-07-13,308,Transfer,transfer,Finance,Not needed,Filled in,Executed
+user_1,2021-11-19,945,ATM,fees,IT,Missing,Missing,Declined
+user_1,2021-06-18,571,Sport,transfer,Marketing,Missing,Filled in,Executed
+user_2,2021-03-17,437,Travel,card,Sales,Attached,Filled in,Processing
+user_2,2020-10-08,47,Mobile,direct_debit,Finance,Not needed,Missing,Executed
+user_3,2021-09-09,761,Travel,taxes,IT,Not needed,Filled in,Declined
+user_1,2021-09-18,632,Hotel,transfer,Finance,Attached,Missing,Processing
+user_3,2020-01-08,986,Sport,transfer,Finance,Not needed,Missing,Executed
+user_1,2021-11-16,26,Train,taxes,HR,Not needed,Filled in,Declined
+user_1,2020-02-09,259,Restaurants,direct_debit,HR,Missing,Filled in,Processing
+user_3,2020-06-17,6,Finance,fees,Finance,Not needed,Missing,Processing
+user_2,2020-12-03,116,Finance,taxes,Marketing,Not needed,Missing,Executed
+user_3,2020-02-03,77,Fees,transfer,Marketing,Missing,Missing,Executed
+user_1,2021-10-31,306,Taxi,card,IT,Missing,Missing,Executed
+user_1,2020-09-06,361,Transfer,transfer,HR,Attached,Missing,Declined
+user_3,2021-09-19,924,Travel,fees,HR,Not needed,Filled in,Processing
+user_2,2021-06-03,325,Travel,direct_debit,Marketing,Attached,Filled in,Executed
+user_1,2020-10-29,24,Sport,fees,Finance,Missing,Missing,Processing
+user_2,2020-09-23,13,Health,fees,Marketing,Missing,Filled in,Declined
+user_1,2021-08-20,642,ATM,card,HR,Not needed,Missing,Processing
+user_1,2021-09-29,180,Restaurants,taxes,Finance,Attached,Filled in,Processing
+user_1,2020-02-26,945,Taxi,card,HR,Attached,Filled in,Declined
+user_2,2020-01-23,8,Train,direct_debit,IT,Attached,Filled in,Executed
+user_1,2021-05-09,546,Taxi,direct_debit,IT,Attached,Filled in,Processing
+user_3,2020-12-27,62,Sport,transfer,Finance,Not needed,Missing,Processing
+user_1,2021-03-15,917,Hotel,card,IT,Missing,Filled in,Executed
+user_3,2021-10-19,233,Train,transfer,Marketing,Attached,Filled in,Declined
+user_1,2020-11-15,220,Fees,card,HR,Missing,Filled in,Declined
+user_2,2020-05-20,454,Train,transfer,Finance,Missing,Missing,Declined
+user_3,2021-03-19,490,Finance,card,HR,Not needed,Filled in,Executed
+user_1,2020-10-25,233,Travel,card,Sales,Missing,Filled in,Declined
+user_2,2021-06-10,834,Mobile,taxes,IT,Missing,Filled in,Processing
+user_2,2021-07-09,113,Sport,taxes,Marketing,Missing,Filled in,Executed
+user_3,2020-04-16,834,Train,taxes,Sales,Attached,Filled in,Executed
+user_1,2021-11-19,113,Food & Grocery,direct_debit,Finance,Not needed,Missing,Declined
+user_1,2020-06-19,736,Finance,transfer,HR,Not needed,Filled in,Declined
+user_1,2020-11-06,354,Travel,transfer,HR,Attached,Filled in,Executed
+user_1,2020-05-19,635,Sport,direct_debit,HR,Not needed,Missing,Processing
+user_1,2020-10-25,22,Mobile,fees,Marketing,Not needed,Filled in,Processing
+user_3,2021-12-25,892,Mobile,transfer,Marketing,Not needed,Missing,Declined
+user_1,2020-10-12,772,Health,card,IT,Not needed,Missing,Executed
+user_2,2021-08-12,414,Taxi,fees,IT,Not needed,Missing,Executed
+user_3,2021-01-25,369,Sport,taxes,IT,Attached,Missing,Declined
+user_2,2020-05-16,373,Transfer,card,Marketing,Missing,Filled in,Processing
+user_3,2021-01-12,927,Shopping,fees,Marketing,Not needed,Filled in,Declined
+user_3,2020-06-19,659,Transfer,taxes,Marketing,Attached,Missing,Processing
+user_3,2021-05-06,836,Train,direct_debit,IT,Not needed,Missing,Processing
+user_2,2020-10-08,933,Sport,direct_debit,Sales,Attached,Filled in,Executed
+user_3,2021-05-29,65,Taxi,fees,Sales,Missing,Filled in,Processing
+user_1,2021-09-04,521,Finance,fees,Finance,Attached,Missing,Processing
+user_3,2021-09-21,838,Health,card,Finance,Missing,Filled in,Processing
+user_1,2020-04-29,891,Fees,card,Finance,Missing,Filled in,Declined
+user_1,2021-04-13,950,Travel,taxes,IT,Not needed,Filled in,Executed
+user_1,2021-10-19,8,Shopping,taxes,HR,Attached,Filled in,Declined
+user_1,2020-10-06,602,Mobile,transfer,Finance,Attached,Filled in,Executed
+user_1,2020-03-20,427,Hotel,taxes,Finance,Attached,Missing,Processing
+user_1,2021-06-01,453,Sport,taxes,Marketing,Attached,Filled in,Processing
+user_3,2020-06-28,722,Shopping,fees,Sales,Not needed,Missing,Declined
+user_2,2020-10-11,615,Transfer,card,Finance,Not needed,Missing,Declined
+user_1,2020-01-19,388,Gas stations,direct_debit,Marketing,Missing,Missing,Executed
+user_1,2020-09-24,790,Restaurants,transfer,Marketing,Missing,Missing,Declined
+user_3,2020-07-20,177,Hotel,card,HR,Not needed,Missing,Declined
+user_1,2020-06-04,262,Food & Grocery,fees,IT,Missing,Filled in,Executed
+user_3,2021-06-25,517,Finance,taxes,Finance,Attached,Missing,Executed
+user_2,2020-12-27,143,Mobile,fees,IT,Not needed,Filled in,Processing
+user_2,2020-01-12,34,Restaurants,fees,Sales,Attached,Missing,Processing
+user_3,2021-09-05,566,Transfer,taxes,Marketing,Not needed,Filled in,Processing
+user_3,2020-03-19,179,Mobile,direct_debit,HR,Missing,Missing,Declined
+user_1,2021-07-27,959,Transfer,transfer,Sales,Attached,Filled in,Processing
+user_3,2020-11-03,194,Food & Grocery,card,Sales,Attached,Missing,Declined
+user_1,2020-06-15,914,Shopping,transfer,Marketing,Not needed,Filled in,Executed
+user_1,2020-02-02,540,Sport,transfer,Marketing,Missing,Filled in,Declined
+user_1,2021-04-06,260,Gas stations,card,Marketing,Attached,Missing,Executed
+user_3,2020-03-21,208,Restaurants,taxes,Sales,Attached,Filled in,Processing
+user_1,2021-05-30,412,Travel,taxes,HR,Not needed,Filled in,Declined
+user_2,2020-05-23,302,Fees,card,IT,Attached,Filled in,Executed
+user_2,2020-05-07,178,Health,card,Marketing,Attached,Filled in,Executed
+user_2,2020-10-24,359,Fees,direct_debit,Marketing,Missing,Filled in,Declined
+user_1,2020-12-11,411,Health,card,Sales,Not needed,Missing,Declined
+user_1,2020-09-16,897,Taxi,fees,Finance,Missing,Missing,Executed
+user_3,2021-07-11,304,ATM,direct_debit,Marketing,Missing,Missing,Processing
+user_1,2021-10-13,113,Fees,card,HR,Attached,Filled in,Processing
+user_3,2021-03-31,501,Mobile,taxes,Sales,Attached,Filled in,Processing
+user_3,2020-02-16,63,Gas stations,fees,Finance,Not needed,Filled in,Executed
+user_1,2020-12-23,887,Food & Grocery,direct_debit,Marketing,Attached,Missing,Declined
+user_1,2021-02-14,699,ATM,fees,IT,Attached,Filled in,Executed
+user_1,2021-12-04,419,Restaurants,card,Sales,Not needed,Filled in,Processing
+user_2,2021-11-27,159,ATM,transfer,Finance,Attached,Filled in,Declined
+user_3,2020-05-18,65,Hotel,direct_debit,Finance,Attached,Filled in,Processing
+user_2,2021-02-18,975,Gas stations,card,Sales,Not needed,Filled in,Processing
+user_3,2020-06-25,786,Health,transfer,Sales,Not needed,Filled in,Processing
+user_1,2020-07-29,235,Gas stations,transfer,IT,Not needed,Missing,Processing
+user_2,2021-09-03,278,Taxi,taxes,IT,Missing,Filled in,Processing
+user_2,2020-07-09,403,Train,fees,HR,Missing,Missing,Declined
+user_3,2021-08-04,881,Shopping,card,HR,Attached,Filled in,Executed
+user_3,2021-08-30,997,Hotel,card,Marketing,Attached,Missing,Declined
+user_1,2020-05-04,580,Mobile,card,Sales,Attached,Missing,Processing
+user_2,2021-01-17,244,Travel,fees,HR,Attached,Missing,Executed
+user_3,2020-03-27,707,ATM,fees,IT,Missing,Missing,Executed
+user_1,2021-12-10,80,ATM,taxes,IT,Attached,Missing,Declined
+user_1,2021-06-16,890,Taxi,transfer,Marketing,Not needed,Missing,Processing
+user_2,2021-03-10,991,Fees,transfer,Sales,Missing,Missing,Executed
+user_3,2021-10-23,710,Food & Grocery,taxes,IT,Missing,Missing,Executed
+user_1,2020-10-30,797,Sport,fees,IT,Not needed,Missing,Processing
+user_1,2021-09-09,895,Taxi,direct_debit,Sales,Missing,Missing,Processing
+user_2,2021-12-22,793,Gas stations,taxes,Sales,Not needed,Filled in,Processing
+user_1,2021-09-24,1,Health,fees,IT,Attached,Filled in,Declined
+user_1,2021-08-02,955,Train,card,Sales,Attached,Filled in,Declined
+user_3,2021-12-27,46,Restaurants,fees,HR,Not needed,Missing,Executed
+user_2,2021-10-16,234,Finance,card,Finance,Attached,Missing,Declined
+user_3,2021-07-05,868,Transfer,card,Marketing,Missing,Missing,Declined
+user_2,2021-03-01,691,Finance,direct_debit,Finance,Attached,Filled in,Processing
+user_2,2020-09-02,11,Food & Grocery,card,Sales,Attached,Filled in,Declined
+user_2,2020-09-18,334,Restaurants,card,Marketing,Attached,Missing,Executed
+user_1,2020-03-13,490,ATM,transfer,Sales,Attached,Missing,Processing
+user_3,2020-03-14,249,Fees,fees,Finance,Missing,Missing,Declined
+user_3,2021-12-10,584,Food & Grocery,fees,Finance,Attached,Filled in,Processing
+user_2,2021-01-28,148,Taxi,transfer,HR,Not needed,Missing,Executed
+user_1,2021-08-08,665,Fees,transfer,Marketing,Missing,Missing,Declined
+user_2,2021-01-20,726,Finance,fees,HR,Missing,Filled in,Executed
+user_1,2021-01-14,268,Restaurants,fees,HR,Missing,Missing,Declined
+user_3,2021-05-20,64,Restaurants,card,Sales,Attached,Filled in,Declined
+user_3,2021-11-16,228,Finance,transfer,HR,Not needed,Filled in,Declined
+user_3,2020-05-03,804,Hotel,direct_debit,Marketing,Attached,Filled in,Executed
+user_1,2021-03-02,979,Travel,fees,IT,Not needed,Missing,Executed
+user_1,2021-12-27,589,Health,fees,Marketing,Not needed,Missing,Processing
+user_3,2020-05-31,598,Transfer,card,Marketing,Missing,Filled in,Executed
+user_3,2021-02-06,371,Travel,transfer,IT,Not needed,Filled in,Declined
+user_3,2021-07-31,134,Travel,taxes,HR,Missing,Filled in,Executed
+user_1,2020-06-12,491,Travel,taxes,Finance,Attached,Missing,Declined
+user_2,2020-02-25,500,Health,direct_debit,Marketing,Attached,Missing,Executed
+user_2,2020-02-07,295,Shopping,fees,Marketing,Not needed,Missing,Executed
+user_3,2020-09-24,675,Shopping,card,IT,Not needed,Filled in,Executed
+user_1,2021-04-02,610,Restaurants,fees,HR,Not needed,Filled in,Processing
+user_2,2021-01-23,208,Mobile,transfer,IT,Attached,Filled in,Processing
+user_3,2021-09-14,585,Gas stations,card,Sales,Missing,Filled in,Executed
+user_1,2020-09-26,868,Finance,transfer,IT,Not needed,Filled in,Declined
+user_1,2020-05-14,553,Restaurants,fees,Marketing,Not needed,Filled in,Executed
+user_1,2020-08-07,498,Sport,fees,IT,Attached,Filled in,Declined
+user_3,2021-06-16,288,Transfer,taxes,Sales,Not needed,Filled in,Executed
+user_1,2021-11-08,678,Gas stations,card,Finance,Attached,Missing,Declined
+user_3,2020-08-24,769,Shopping,transfer,Marketing,Not needed,Filled in,Executed
+user_2,2021-11-28,651,Transfer,card,Marketing,Attached,Filled in,Declined
+user_3,2020-06-08,660,Gas stations,direct_debit,Finance,Attached,Filled in,Executed
+user_1,2020-03-10,14,Gas stations,direct_debit,Sales,Attached,Filled in,Processing
+user_2,2021-12-02,205,Restaurants,direct_debit,Finance,Missing,Filled in,Declined
+user_2,2021-12-21,912,Transfer,fees,Marketing,Not needed,Filled in,Executed
+user_1,2020-02-29,282,Train,direct_debit,HR,Not needed,Filled in,Executed
+user_1,2020-07-11,873,Train,direct_debit,Finance,Missing,Filled in,Processing
+user_1,2021-03-15,528,Gas stations,taxes,HR,Not needed,Filled in,Declined
+user_3,2020-06-17,116,Hotel,card,IT,Missing,Filled in,Executed
+user_2,2020-04-08,582,Train,taxes,Finance,Not needed,Missing,Executed
+user_3,2021-11-10,533,Travel,taxes,HR,Attached,Missing,Processing
+user_2,2021-09-13,72,Gas stations,taxes,Sales,Missing,Missing,Executed
+user_3,2021-09-12,446,Restaurants,transfer,Sales,Not needed,Missing,Processing
+user_3,2020-12-01,690,Finance,transfer,Sales,Not needed,Filled in,Processing
+user_2,2020-01-31,327,Shopping,fees,Sales,Attached,Missing,Declined
+user_3,2020-02-29,447,Taxi,direct_debit,Sales,Missing,Filled in,Processing
+user_2,2021-04-14,418,Sport,transfer,Marketing,Attached,Filled in,Declined
+user_2,2021-09-11,65,Transfer,fees,Marketing,Not needed,Missing,Declined
+user_1,2020-04-08,130,Travel,taxes,IT,Missing,Filled in,Declined
+user_1,2020-05-22,919,Finance,taxes,Finance,Missing,Filled in,Executed
+user_2,2021-05-26,852,Hotel,fees,Marketing,Not needed,Missing,Declined
+user_2,2021-11-26,699,Taxi,fees,Finance,Not needed,Missing,Declined
+user_3,2020-09-10,604,Transfer,taxes,HR,Missing,Filled in,Declined
+user_3,2021-07-31,238,Transfer,taxes,HR,Attached,Missing,Processing
+user_3,2021-11-14,712,Shopping,taxes,Finance,Attached,Filled in,Processing
+user_3,2021-08-10,619,Taxi,card,Marketing,Not needed,Missing,Executed
+user_1,2020-01-25,619,Fees,taxes,Marketing,Attached,Missing,Executed
+user_1,2021-02-22,584,Food & Grocery,fees,Marketing,Not needed,Filled in,Processing
+user_2,2021-05-15,874,Train,transfer,IT,Not needed,Missing,Declined
+user_3,2021-05-15,836,Food & Grocery,transfer,Sales,Not needed,Missing,Declined
+user_1,2020-11-23,502,Sport,direct_debit,Finance,Missing,Filled in,Processing
+user_1,2021-06-15,803,Hotel,card,IT,Missing,Missing,Executed
+user_1,2020-01-17,345,Fees,card,Finance,Missing,Filled in,Executed
+user_1,2021-11-08,746,Shopping,direct_debit,Marketing,Missing,Filled in,Declined
+user_1,2020-01-08,598,Hotel,transfer,Marketing,Not needed,Missing,Processing
+user_1,2021-10-04,105,Hotel,taxes,Marketing,Missing,Missing,Executed
+user_3,2021-10-05,680,Finance,transfer,HR,Not needed,Missing,Executed
+user_1,2020-08-04,103,Gas stations,taxes,IT,Missing,Filled in,Declined
+user_1,2020-08-24,518,Restaurants,card,HR,Missing,Filled in,Processing
+user_3,2021-08-02,836,Mobile,direct_debit,Finance,Missing,Missing,Declined
+user_1,2020-06-07,751,Restaurants,fees,Finance,Attached,Filled in,Processing
+user_3,2021-01-07,630,Gas stations,card,Finance,Missing,Filled in,Declined
+user_2,2021-03-15,753,Hotel,card,Marketing,Attached,Filled in,Declined
+user_1,2020-11-11,614,Restaurants,card,IT,Missing,Filled in,Executed
+user_3,2020-04-13,524,Hotel,direct_debit,Finance,Attached,Filled in,Declined
+user_1,2020-08-26,469,Sport,taxes,IT,Not needed,Missing,Executed
+user_1,2020-01-20,782,Hotel,fees,Finance,Missing,Filled in,Executed
+user_3,2020-01-19,760,ATM,taxes,Marketing,Not needed,Filled in,Declined
+user_3,2021-03-29,783,Taxi,taxes,Marketing,Attached,Missing,Processing
+user_3,2021-02-18,319,Fees,fees,Marketing,Missing,Filled in,Processing
+user_3,2020-10-21,84,Gas stations,fees,Sales,Attached,Missing,Processing
+user_3,2021-11-15,662,Finance,card,IT,Missing,Missing,Executed
+user_1,2020-10-02,428,ATM,fees,HR,Missing,Filled in,Processing
+user_1,2021-08-03,460,Hotel,taxes,Marketing,Not needed,Filled in,Processing
+user_3,2021-04-27,549,ATM,fees,Sales,Missing,Filled in,Executed
+user_3,2020-08-07,620,Mobile,fees,Finance,Missing,Filled in,Executed
+user_1,2021-02-27,320,Health,direct_debit,HR,Not needed,Filled in,Executed
+user_2,2021-06-11,407,Travel,direct_debit,Marketing,Attached,Filled in,Declined
+user_1,2020-09-24,232,Shopping,fees,HR,Missing,Missing,Executed
+user_1,2021-05-31,704,Taxi,taxes,IT,Not needed,Filled in,Processing
+user_3,2020-07-25,332,Taxi,fees,Marketing,Attached,Filled in,Executed
+user_1,2020-02-09,745,Finance,taxes,HR,Not needed,Missing,Processing
+user_3,2021-06-25,180,Hotel,direct_debit,Sales,Not needed,Missing,Executed
+user_3,2020-04-01,422,Shopping,transfer,HR,Missing,Missing,Processing
+user_2,2021-10-24,790,Taxi,card,HR,Not needed,Missing,Declined
+user_3,2020-06-25,312,Mobile,card,Finance,Missing,Filled in,Executed
+user_3,2021-07-08,167,Food & Grocery,fees,HR,Not needed,Filled in,Executed
+user_3,2021-11-08,712,Hotel,direct_debit,IT,Not needed,Filled in,Processing
+user_2,2020-12-29,503,Fees,fees,Finance,Not needed,Missing,Executed
+user_1,2020-09-21,910,ATM,transfer,Marketing,Missing,Filled in,Processing
+user_3,2021-04-02,775,Travel,fees,Marketing,Not needed,Filled in,Declined
+user_3,2020-07-30,959,Sport,taxes,Finance,Not needed,Filled in,Processing
+user_2,2021-08-25,332,Shopping,transfer,IT,Attached,Missing,Declined
+user_1,2020-03-11,605,Health,transfer,HR,Not needed,Filled in,Declined
+user_1,2021-04-04,168,Sport,direct_debit,Marketing,Missing,Filled in,Processing
+user_1,2021-02-27,511,Health,transfer,IT,Missing,Missing,Processing
+user_3,2020-10-10,926,Travel,fees,IT,Attached,Filled in,Processing
+user_1,2020-06-28,178,Finance,transfer,IT,Missing,Filled in,Processing
+user_1,2020-05-23,174,Mobile,transfer,Sales,Attached,Missing,Processing
+user_1,2020-03-11,331,Food & Grocery,card,IT,Attached,Filled in,Executed
+user_2,2020-12-03,211,ATM,direct_debit,Sales,Attached,Filled in,Executed
+user_1,2021-12-14,446,Shopping,transfer,Marketing,Not needed,Filled in,Executed
+user_1,2021-08-15,19,ATM,direct_debit,Marketing,Attached,Missing,Executed
+user_2,2020-02-25,252,ATM,fees,HR,Attached,Missing,Declined
+user_1,2020-05-01,460,Fees,card,Marketing,Attached,Filled in,Declined
+user_1,2021-01-30,693,Shopping,direct_debit,IT,Missing,Missing,Processing
+user_2,2021-05-13,776,Mobile,direct_debit,IT,Missing,Missing,Processing
+user_2,2021-01-30,538,Taxi,direct_debit,Marketing,Not needed,Missing,Declined
+user_3,2021-10-10,620,Taxi,direct_debit,Finance,Not needed,Missing,Declined
+user_1,2020-04-26,380,Train,taxes,IT,Missing,Filled in,Processing
+user_3,2020-05-15,228,Food & Grocery,card,Marketing,Missing,Missing,Processing
+user_3,2020-01-21,948,Shopping,taxes,Finance,Attached,Missing,Processing
+user_1,2021-03-04,791,Mobile,taxes,HR,Not needed,Missing,Declined
+user_1,2021-10-28,72,Health,transfer,Marketing,Missing,Filled in,Processing
+user_3,2020-09-08,892,Mobile,transfer,HR,Attached,Filled in,Processing
+user_3,2021-08-28,204,Sport,fees,IT,Attached,Filled in,Declined
+user_2,2021-04-15,114,Health,fees,HR,Attached,Filled in,Executed
+user_3,2020-05-20,591,ATM,transfer,HR,Not needed,Missing,Executed
+user_2,2021-09-09,773,Restaurants,taxes,HR,Not needed,Missing,Processing
+user_3,2020-02-15,339,Train,taxes,IT,Missing,Filled in,Declined
+user_3,2020-02-06,530,Mobile,fees,Sales,Not needed,Missing,Processing
+user_1,2021-05-07,272,Restaurants,taxes,Sales,Attached,Missing,Executed
+user_2,2021-03-03,864,Fees,taxes,Finance,Attached,Filled in,Declined
+user_3,2020-01-21,468,Gas stations,direct_debit,IT,Not needed,Missing,Executed
+user_3,2020-09-12,151,Taxi,card,Marketing,Not needed,Missing,Processing
+user_2,2020-04-01,377,Train,card,HR,Missing,Filled in,Executed
+user_2,2021-10-31,747,Train,direct_debit,IT,Missing,Missing,Executed
+user_2,2021-10-01,256,Finance,fees,IT,Attached,Missing,Declined
+user_1,2021-08-20,917,Transfer,transfer,HR,Attached,Filled in,Executed
+user_2,2020-06-19,762,Restaurants,fees,IT,Attached,Missing,Processing
+user_3,2020-02-03,364,Health,fees,IT,Not needed,Missing,Processing
+user_2,2021-07-12,262,Train,card,HR,Missing,Filled in,Declined
+user_1,2021-10-22,570,Sport,fees,Finance,Not needed,Filled in,Processing
+user_1,2021-02-12,590,Finance,card,Marketing,Not needed,Filled in,Executed
+user_2,2021-02-13,889,Finance,fees,Marketing,Attached,Filled in,Processing
+user_1,2020-09-07,682,Taxi,direct_debit,Finance,Attached,Filled in,Processing
+user_3,2021-04-22,811,Train,card,Finance,Attached,Missing,Declined
+user_3,2021-02-06,316,Mobile,card,IT,Missing,Filled in,Executed
+user_2,2020-12-30,394,Train,transfer,Marketing,Missing,Filled in,Processing
+user_1,2020-05-24,865,Shopping,transfer,HR,Not needed,Filled in,Executed
+user_1,2021-05-04,355,Mobile,transfer,Marketing,Missing,Filled in,Executed
+user_1,2021-01-05,434,Train,taxes,HR,Attached,Missing,Processing
+user_3,2021-03-25,441,Fees,transfer,Sales,Attached,Filled in,Declined
+user_1,2020-06-05,37,Train,fees,Finance,Not needed,Missing,Executed
+user_3,2021-09-29,629,Shopping,taxes,Sales,Missing,Filled in,Executed
+user_1,2020-07-21,384,Travel,taxes,Marketing,Missing,Missing,Executed
+user_1,2021-01-20,181,Restaurants,taxes,Marketing,Missing,Filled in,Declined
+user_1,2021-01-29,373,Transfer,direct_debit,Finance,Not needed,Missing,Declined
+user_2,2021-11-10,966,Mobile,fees,Marketing,Attached,Missing,Executed
+user_1,2021-09-24,549,Hotel,taxes,HR,Not needed,Filled in,Executed
+user_1,2021-11-25,119,ATM,transfer,HR,Missing,Filled in,Executed
+user_1,2020-11-11,79,Restaurants,taxes,Sales,Not needed,Filled in,Executed
+user_2,2021-05-28,424,Restaurants,taxes,Finance,Attached,Missing,Processing
+user_3,2021-03-09,748,Gas stations,fees,Marketing,Not needed,Filled in,Processing
+user_2,2020-05-16,952,Gas stations,taxes,HR,Missing,Missing,Declined
+user_2,2020-01-15,995,Food & Grocery,taxes,HR,Missing,Filled in,Processing
+user_1,2021-07-14,459,Finance,card,Sales,Missing,Filled in,Processing
+user_3,2020-09-02,642,Taxi,transfer,IT,Not needed,Missing,Declined
+user_1,2020-10-29,757,Train,card,Marketing,Not needed,Missing,Executed
+user_2,2020-04-13,498,Hotel,fees,Marketing,Attached,Missing,Declined
+user_2,2020-03-03,928,Fees,card,Finance,Not needed,Missing,Declined
+user_1,2020-05-18,344,Health,card,Marketing,Attached,Missing,Executed
+user_1,2021-10-25,497,Fees,taxes,Marketing,Attached,Missing,Declined
+user_1,2020-02-21,955,Hotel,direct_debit,Finance,Missing,Missing,Executed
+user_3,2020-06-08,411,Restaurants,fees,Marketing,Attached,Missing,Executed
+user_1,2021-08-17,743,Food & Grocery,taxes,Marketing,Attached,Missing,Executed
+user_3,2020-11-17,2,Transfer,transfer,IT,Not needed,Missing,Processing
+user_2,2020-11-13,584,Train,fees,IT,Not needed,Filled in,Declined
+user_1,2021-02-25,966,Sport,direct_debit,IT,Attached,Missing,Processing
+user_1,2020-09-27,537,Restaurants,transfer,HR,Missing,Missing,Executed
+user_2,2021-06-01,549,Train,direct_debit,Sales,Not needed,Missing,Processing
+user_1,2020-04-10,679,Train,card,Finance,Not needed,Missing,Declined
+user_1,2020-08-04,74,Finance,fees,HR,Not needed,Missing,Executed
+user_2,2020-09-16,768,ATM,transfer,HR,Attached,Missing,Declined
+user_3,2021-12-22,900,Gas stations,taxes,IT,Missing,Missing,Processing
+user_1,2020-04-01,434,Gas stations,fees,Sales,Not needed,Filled in,Executed
+user_2,2021-03-21,317,Hotel,taxes,Sales,Attached,Filled in,Declined
+user_2,2021-10-18,553,Health,fees,Finance,Attached,Filled in,Declined
+user_1,2020-06-02,895,Transfer,card,Sales,Missing,Missing,Declined
+user_1,2021-09-02,783,Travel,taxes,HR,Missing,Filled in,Declined
+user_1,2020-11-10,334,Finance,card,Marketing,Not needed,Filled in,Processing
+user_3,2021-03-17,154,ATM,card,Finance,Not needed,Filled in,Declined
+user_3,2020-01-24,327,Fees,taxes,Sales,Not needed,Missing,Declined
+user_1,2021-06-28,751,Gas stations,fees,Sales,Not needed,Filled in,Processing
+user_2,2021-12-28,769,Train,fees,HR,Attached,Filled in,Executed
+user_1,2020-04-12,932,Food & Grocery,direct_debit,Marketing,Not needed,Filled in,Processing
+user_1,2020-01-15,893,Hotel,taxes,IT,Attached,Missing,Executed
+user_3,2020-04-23,383,Food & Grocery,taxes,Finance,Missing,Filled in,Declined
+user_3,2021-01-08,688,Transfer,taxes,IT,Missing,Filled in,Processing
+user_1,2020-03-15,294,Transfer,card,IT,Missing,Missing,Processing
+user_1,2021-06-06,842,Mobile,card,Marketing,Missing,Missing,Declined
+user_2,2021-12-26,803,Food & Grocery,direct_debit,Finance,Not needed,Filled in,Declined
+user_2,2020-10-20,832,Mobile,transfer,Marketing,Attached,Missing,Executed
+user_1,2020-03-18,549,Train,fees,Finance,Attached,Filled in,Processing
+user_2,2021-07-01,595,ATM,direct_debit,IT,Attached,Missing,Processing
+user_3,2021-01-11,907,Sport,card,IT,Missing,Missing,Executed
+user_1,2020-07-18,736,ATM,card,HR,Attached,Filled in,Declined
+user_3,2020-03-08,275,Gas stations,transfer,Sales,Missing,Filled in,Processing
+user_1,2020-07-13,718,Hotel,fees,Marketing,Attached,Filled in,Processing
+user_3,2021-02-27,756,Food & Grocery,fees,Marketing,Missing,Filled in,Declined
+user_3,2020-02-06,401,Hotel,fees,Marketing,Not needed,Filled in,Declined
+user_3,2020-04-14,13,Hotel,direct_debit,Marketing,Missing,Filled in,Processing
+user_2,2021-06-02,896,Shopping,direct_debit,HR,Not needed,Filled in,Executed
+user_1,2020-04-06,453,Transfer,card,IT,Not needed,Filled in,Executed
+user_1,2021-03-05,262,Fees,direct_debit,Marketing,Missing,Missing,Declined
+user_2,2020-08-07,830,Shopping,taxes,Marketing,Attached,Missing,Executed
+user_2,2020-01-09,704,Sport,fees,Finance,Not needed,Missing,Declined
+user_1,2020-07-22,476,Restaurants,direct_debit,HR,Missing,Filled in,Executed
+user_2,2021-11-01,786,Travel,direct_debit,Marketing,Attached,Filled in,Processing
+user_3,2020-04-01,258,Finance,transfer,Marketing,Missing,Missing,Processing
+user_2,2021-01-16,124,Finance,transfer,Sales,Missing,Filled in,Processing
+user_2,2020-11-13,949,Transfer,card,Finance,Not needed,Missing,Executed
+user_3,2021-12-05,871,Health,card,HR,Attached,Missing,Processing
+user_3,2021-06-11,221,Fees,card,HR,Not needed,Filled in,Executed
+user_3,2021-06-17,704,ATM,transfer,HR,Attached,Filled in,Processing
+user_1,2021-01-27,182,Finance,direct_debit,HR,Missing,Filled in,Processing
+user_2,2021-09-26,855,Taxi,card,Sales,Not needed,Missing,Processing
+user_2,2020-01-27,151,Train,direct_debit,IT,Attached,Missing,Processing
+user_1,2021-08-10,61,Gas stations,transfer,Finance,Attached,Missing,Processing
+user_1,2021-09-13,834,ATM,direct_debit,HR,Not needed,Filled in,Processing
+user_3,2021-09-29,608,Health,direct_debit,Sales,Not needed,Missing,Declined
+user_2,2020-12-21,139,Restaurants,card,Marketing,Missing,Missing,Processing
+user_3,2020-07-29,644,Health,direct_debit,IT,Not needed,Missing,Executed
+user_3,2020-06-10,134,ATM,fees,IT,Not needed,Filled in,Processing
+user_3,2020-04-02,314,Health,taxes,HR,Missing,Filled in,Processing
+user_1,2020-03-05,405,Transfer,card,Sales,Not needed,Filled in,Declined
+user_3,2021-09-30,352,ATM,direct_debit,Marketing,Not needed,Missing,Declined
+user_3,2020-10-29,789,Train,fees,Marketing,Not needed,Missing,Executed
+user_3,2021-08-30,613,Train,card,HR,Missing,Filled in,Executed
+user_1,2021-02-18,764,Travel,fees,Marketing,Missing,Missing,Processing
+user_2,2020-05-04,145,Restaurants,card,HR,Missing,Missing,Declined
+user_3,2020-11-27,58,Restaurants,direct_debit,Marketing,Missing,Missing,Declined
+user_2,2021-01-06,321,Shopping,transfer,Marketing,Missing,Filled in,Processing
+user_2,2021-10-19,136,Taxi,transfer,IT,Missing,Missing,Processing
+user_3,2020-04-26,617,Sport,transfer,Sales,Missing,Missing,Executed
+user_1,2020-02-23,326,ATM,card,IT,Missing,Missing,Declined
+user_1,2020-10-09,221,Hotel,transfer,HR,Missing,Missing,Declined
+user_1,2021-03-10,790,Mobile,taxes,Marketing,Missing,Filled in,Declined
+user_1,2020-02-08,356,Health,taxes,IT,Not needed,Filled in,Declined
+user_1,2021-06-27,426,Hotel,direct_debit,Finance,Missing,Missing,Executed
+user_3,2020-02-12,449,Travel,card,Finance,Not needed,Filled in,Processing
+user_2,2021-12-15,488,Food & Grocery,direct_debit,IT,Missing,Missing,Declined
+user_3,2020-10-13,230,Mobile,fees,Marketing,Not needed,Filled in,Processing
+user_2,2020-09-15,564,Travel,card,IT,Missing,Missing,Executed
+user_2,2020-10-02,996,Transfer,card,Marketing,Not needed,Filled in,Executed
+user_2,2021-09-03,477,Travel,card,Sales,Attached,Missing,Processing
+user_1,2020-09-29,637,Food & Grocery,card,IT,Attached,Missing,Executed
+user_2,2020-11-05,441,Train,transfer,HR,Not needed,Filled in,Executed
+user_3,2021-02-12,198,Hotel,direct_debit,Marketing,Missing,Filled in,Executed
+user_2,2020-03-08,69,Shopping,transfer,Marketing,Attached,Filled in,Declined
+user_1,2020-12-25,129,Transfer,taxes,Sales,Not needed,Filled in,Executed
+user_1,2021-04-11,70,Health,card,Finance,Not needed,Filled in,Processing
+user_1,2021-01-21,734,Health,transfer,Marketing,Attached,Filled in,Processing
+user_1,2020-06-04,470,Train,transfer,Finance,Missing,Filled in,Processing
+user_1,2020-07-04,166,Restaurants,direct_debit,HR,Not needed,Missing,Processing
+user_2,2020-02-15,192,Fees,transfer,Finance,Not needed,Filled in,Declined
+user_1,2021-12-29,430,Train,transfer,HR,Not needed,Missing,Executed
+user_1,2020-01-05,65,Travel,card,Marketing,Attached,Missing,Executed
+user_3,2020-10-03,34,Taxi,card,Sales,Attached,Filled in,Processing
+user_2,2020-08-22,551,Hotel,card,Marketing,Not needed,Filled in,Executed
+user_2,2021-03-10,186,Mobile,direct_debit,HR,Missing,Filled in,Executed
+user_2,2021-09-25,459,Shopping,taxes,Sales,Missing,Filled in,Declined
+user_2,2021-04-17,444,Train,card,Marketing,Attached,Filled in,Declined
+user_1,2020-03-24,132,Restaurants,direct_debit,Marketing,Not needed,Missing,Processing
+user_3,2020-12-16,386,Hotel,fees,HR,Attached,Filled in,Declined
+user_3,2021-11-16,256,Food & Grocery,card,IT,Missing,Missing,Executed
+user_3,2020-07-15,892,ATM,card,HR,Missing,Filled in,Processing
+user_2,2020-01-16,105,Fees,card,HR,Attached,Missing,Processing
+user_3,2020-03-08,612,Health,fees,Finance,Missing,Missing,Processing
+user_1,2021-08-31,957,Taxi,direct_debit,IT,Attached,Missing,Executed
+user_3,2021-01-05,368,Health,card,Marketing,Not needed,Filled in,Declined
+user_3,2020-01-14,178,Shopping,direct_debit,HR,Not needed,Missing,Executed
+user_2,2020-03-06,586,Health,direct_debit,Finance,Missing,Missing,Processing
+user_1,2020-08-18,360,Mobile,card,Finance,Not needed,Missing,Executed
+user_3,2021-05-28,717,Gas stations,direct_debit,IT,Missing,Filled in,Processing
+user_1,2020-03-07,568,Sport,fees,HR,Not needed,Filled in,Executed
+user_2,2020-03-29,114,Sport,direct_debit,Marketing,Missing,Missing,Processing
+user_2,2020-03-14,191,Mobile,transfer,Sales,Missing,Missing,Executed
+user_3,2021-04-20,290,Hotel,fees,Sales,Not needed,Filled in,Declined
+user_2,2020-01-30,328,Gas stations,fees,HR,Not needed,Missing,Declined
+user_1,2021-02-10,858,Finance,fees,IT,Missing,Missing,Processing
+user_1,2021-12-21,82,Restaurants,fees,Finance,Not needed,Filled in,Executed
+user_2,2021-01-11,676,Train,card,IT,Missing,Filled in,Executed
+user_3,2020-01-04,692,ATM,card,IT,Not needed,Filled in,Executed
+user_1,2021-09-08,783,Food & Grocery,direct_debit,Sales,Missing,Missing,Declined
+user_1,2021-02-22,510,Train,transfer,Marketing,Missing,Missing,Declined
+user_2,2021-02-06,340,Health,transfer,Marketing,Not needed,Filled in,Processing
+user_1,2020-12-12,196,Gas stations,transfer,IT,Missing,Missing,Declined
+user_1,2020-01-15,394,Taxi,card,Finance,Not needed,Filled in,Declined
+user_2,2021-03-15,812,Mobile,card,Sales,Missing,Filled in,Executed
+user_2,2020-08-15,902,Food & Grocery,transfer,IT,Not needed,Filled in,Executed
+user_1,2021-02-10,406,Train,direct_debit,Sales,Not needed,Filled in,Declined
+user_2,2020-05-20,996,Hotel,taxes,Sales,Missing,Missing,Declined
+user_3,2020-10-20,284,Hotel,card,IT,Missing,Filled in,Declined
+user_1,2020-04-22,147,Taxi,fees,Sales,Attached,Filled in,Processing
+user_2,2020-02-28,320,Fees,direct_debit,IT,Not needed,Missing,Executed
+user_3,2021-07-16,461,Food & Grocery,direct_debit,Sales,Missing,Missing,Executed
+user_1,2021-02-21,970,Fees,transfer,Marketing,Not needed,Filled in,Executed
+user_2,2020-08-04,56,Transfer,taxes,Marketing,Not needed,Filled in,Executed
+user_1,2021-04-25,187,Transfer,fees,Marketing,Missing,Filled in,Processing
+user_1,2021-05-13,200,Sport,card,Finance,Not needed,Filled in,Executed
+user_2,2020-09-05,77,ATM,fees,IT,Not needed,Filled in,Processing
+user_2,2021-07-28,612,ATM,fees,HR,Not needed,Filled in,Executed
+user_1,2021-06-17,344,Hotel,card,Finance,Missing,Filled in,Processing
+user_3,2020-01-24,497,Restaurants,taxes,Sales,Not needed,Missing,Executed
+user_2,2021-08-28,891,Travel,direct_debit,IT,Not needed,Missing,Processing
+user_3,2021-12-04,910,Finance,taxes,IT,Not needed,Missing,Declined
+user_2,2020-07-26,588,Taxi,transfer,Sales,Not needed,Filled in,Executed
+user_1,2020-11-22,713,Shopping,transfer,Marketing,Attached,Missing,Executed
+user_1,2021-12-19,483,Restaurants,direct_debit,Finance,Not needed,Filled in,Executed
+user_1,2020-05-24,658,Gas stations,transfer,Sales,Attached,Missing,Processing
+user_3,2021-09-30,569,Food & Grocery,taxes,Marketing,Attached,Missing,Declined
+user_3,2021-11-19,847,Travel,transfer,HR,Attached,Missing,Declined
+user_1,2021-06-13,657,Shopping,taxes,IT,Not needed,Filled in,Declined
+user_1,2021-10-28,617,Travel,transfer,Marketing,Attached,Missing,Executed
+user_2,2021-10-19,830,Train,transfer,Finance,Missing,Missing,Processing
+user_1,2021-01-12,982,Health,direct_debit,Sales,Missing,Missing,Declined
+user_3,2021-02-22,104,Taxi,card,IT,Attached,Missing,Executed
+user_1,2020-12-26,148,Sport,taxes,Sales,Missing,Filled in,Executed
+user_2,2021-08-29,718,Transfer,card,Sales,Not needed,Missing,Executed
+user_3,2020-06-20,541,Shopping,card,Finance,Not needed,Filled in,Processing
+user_3,2020-10-06,991,Fees,card,Finance,Missing,Missing,Executed
+user_1,2021-07-05,287,Fees,fees,Marketing,Attached,Filled in,Declined
+user_3,2021-02-19,773,Shopping,transfer,IT,Missing,Filled in,Processing
+user_3,2020-09-02,337,Health,transfer,Sales,Missing,Filled in,Executed
+user_2,2021-02-26,203,Food & Grocery,transfer,Marketing,Attached,Filled in,Executed
+user_3,2021-09-05,630,Transfer,fees,Marketing,Attached,Missing,Declined
+user_2,2021-07-04,512,Taxi,taxes,Sales,Not needed,Filled in,Processing
+user_1,2021-09-17,809,Transfer,taxes,HR,Not needed,Missing,Processing
+user_3,2021-01-12,885,Train,fees,IT,Attached,Filled in,Processing
+user_2,2021-07-19,792,Mobile,transfer,HR,Not needed,Filled in,Declined
+user_3,2020-09-22,395,Mobile,direct_debit,Sales,Attached,Missing,Processing
+user_3,2020-10-09,238,Gas stations,card,Finance,Attached,Missing,Executed
+user_2,2021-07-15,837,Travel,taxes,IT,Not needed,Filled in,Executed
+user_3,2021-07-30,417,Sport,card,Sales,Missing,Filled in,Processing
+user_2,2020-06-19,474,Health,taxes,Sales,Missing,Filled in,Processing
+user_3,2021-01-29,339,Fees,card,IT,Not needed,Filled in,Executed
+user_1,2020-07-01,278,Shopping,direct_debit,Sales,Missing,Missing,Declined
+user_2,2020-07-28,286,ATM,direct_debit,IT,Not needed,Filled in,Executed
+user_1,2020-06-15,643,Food & Grocery,transfer,Finance,Attached,Missing,Executed
+user_2,2020-09-23,500,Food & Grocery,taxes,Marketing,Not needed,Filled in,Processing
+user_2,2020-11-30,341,Finance,fees,Marketing,Attached,Missing,Declined
+user_3,2021-05-07,348,Transfer,card,HR,Attached,Missing,Declined
+user_1,2021-09-30,275,Fees,transfer,Sales,Missing,Filled in,Declined
+user_2,2020-01-04,60,Taxi,taxes,IT,Missing,Missing,Executed
+user_3,2020-02-29,970,Finance,fees,IT,Attached,Filled in,Executed
+user_2,2021-08-22,733,Food & Grocery,card,Sales,Missing,Filled in,Executed
+user_1,2020-11-04,252,Hotel,direct_debit,IT,Attached,Filled in,Declined
+user_1,2021-11-25,280,Food & Grocery,card,HR,Missing,Missing,Executed
+user_2,2020-11-01,544,Food & Grocery,fees,IT,Missing,Filled in,Executed
+user_2,2021-05-19,942,Hotel,taxes,HR,Attached,Filled in,Executed
+user_2,2021-08-03,175,Food & Grocery,taxes,HR,Not needed,Missing,Executed
+user_3,2021-10-17,173,Sport,direct_debit,Marketing,Attached,Filled in,Declined
+user_2,2021-06-25,601,Taxi,direct_debit,IT,Not needed,Filled in,Processing
+user_1,2021-07-23,976,Hotel,direct_debit,Marketing,Attached,Missing,Processing
+user_1,2020-12-30,389,Gas stations,card,Marketing,Not needed,Filled in,Executed
+user_2,2021-11-05,95,Travel,card,Marketing,Missing,Missing,Declined
+user_1,2021-08-18,800,Shopping,card,IT,Missing,Filled in,Executed
+user_3,2020-01-16,198,Health,fees,Marketing,Not needed,Filled in,Declined
+user_1,2020-03-31,848,Transfer,direct_debit,Finance,Attached,Filled in,Executed
+user_3,2020-06-15,751,Sport,card,Finance,Attached,Filled in,Declined
+user_1,2021-09-29,387,Hotel,card,Marketing,Missing,Missing,Executed
+user_3,2021-11-23,345,Gas stations,transfer,Sales,Missing,Missing,Executed
+user_1,2021-08-28,98,Mobile,card,IT,Attached,Filled in,Processing
+user_1,2021-07-21,809,Food & Grocery,taxes,HR,Attached,Filled in,Processing
+user_3,2020-03-05,347,Sport,taxes,Sales,Missing,Missing,Declined
+user_2,2020-07-31,792,Hotel,direct_debit,IT,Missing,Missing,Declined
+user_3,2020-11-22,673,Mobile,card,Marketing,Attached,Missing,Executed
+user_2,2021-05-13,223,Hotel,taxes,IT,Not needed,Filled in,Executed
+user_2,2020-07-16,378,Sport,transfer,IT,Not needed,Filled in,Processing
+user_2,2020-03-30,314,Restaurants,transfer,HR,Missing,Missing,Executed
+user_1,2020-05-07,746,Taxi,fees,IT,Not needed,Missing,Declined
+user_1,2021-04-22,397,Sport,transfer,IT,Not needed,Filled in,Declined
+user_1,2021-12-03,919,ATM,fees,Marketing,Not needed,Filled in,Executed
+user_2,2021-01-08,325,Transfer,card,Finance,Not needed,Missing,Processing
+user_3,2021-01-10,94,Restaurants,card,Sales,Not needed,Missing,Executed
+user_2,2020-09-26,515,Taxi,card,IT,Attached,Missing,Processing
+user_3,2020-07-31,365,Shopping,direct_debit,HR,Not needed,Filled in,Processing
+user_3,2020-07-05,77,Travel,card,Finance,Missing,Missing,Declined
+user_3,2021-11-15,975,Health,taxes,Finance,Missing,Missing,Processing
+user_2,2021-08-28,986,Transfer,card,Marketing,Not needed,Missing,Declined
+user_1,2020-05-04,205,Gas stations,transfer,IT,Not needed,Filled in,Declined
+user_3,2020-11-22,147,ATM,direct_debit,HR,Missing,Filled in,Processing
+user_1,2021-02-19,553,Shopping,transfer,Marketing,Not needed,Filled in,Declined
+user_2,2021-11-20,317,Fees,card,Sales,Attached,Filled in,Executed
+user_3,2021-09-07,857,ATM,direct_debit,Marketing,Missing,Missing,Executed
+user_1,2020-02-14,735,Shopping,fees,Marketing,Not needed,Filled in,Processing
+user_1,2021-04-14,47,Restaurants,direct_debit,Marketing,Attached,Filled in,Processing
+user_2,2021-10-02,221,Travel,direct_debit,HR,Missing,Missing,Processing
+user_1,2021-12-15,456,Taxi,fees,Finance,Attached,Filled in,Declined
+user_2,2021-11-22,405,Hotel,card,Sales,Missing,Filled in,Executed
+user_2,2021-08-29,218,Gas stations,direct_debit,Sales,Missing,Filled in,Declined
+user_3,2020-04-01,854,Shopping,taxes,Sales,Attached,Filled in,Executed
+user_2,2020-11-12,634,Transfer,taxes,IT,Missing,Filled in,Executed
+user_1,2020-10-11,343,Fees,card,IT,Attached,Filled in,Executed
+user_3,2021-10-19,394,Hotel,transfer,Sales,Attached,Filled in,Processing
+user_2,2020-10-15,123,Shopping,fees,Marketing,Missing,Filled in,Processing
+user_1,2021-10-18,446,Taxi,fees,IT,Not needed,Missing,Declined
+user_3,2020-01-29,721,Travel,fees,Marketing,Not needed,Missing,Processing
+user_2,2021-04-17,286,Shopping,direct_debit,Sales,Attached,Filled in,Executed
+user_2,2021-10-05,529,Sport,fees,HR,Attached,Filled in,Executed
+user_2,2020-08-10,132,Restaurants,direct_debit,Finance,Attached,Missing,Executed
+user_1,2021-02-26,417,Mobile,transfer,HR,Not needed,Missing,Declined
+user_1,2020-06-05,307,Sport,fees,IT,Attached,Filled in,Declined
+user_2,2020-04-04,172,Food & Grocery,fees,Marketing,Not needed,Missing,Declined
+user_3,2021-11-25,857,Shopping,card,Finance,Attached,Missing,Executed
+user_3,2021-08-16,392,Restaurants,direct_debit,Finance,Not needed,Missing,Processing
+user_1,2021-08-24,190,Taxi,fees,Marketing,Missing,Missing,Processing
+user_2,2020-10-20,222,Fees,direct_debit,HR,Missing,Missing,Declined
+user_3,2020-12-06,752,Transfer,direct_debit,IT,Not needed,Filled in,Declined
+user_3,2021-08-14,514,Hotel,transfer,Finance,Missing,Missing,Executed
+user_2,2020-04-25,260,Travel,direct_debit,Marketing,Attached,Missing,Declined
+user_1,2021-05-24,803,Hotel,fees,Sales,Missing,Missing,Declined
+user_3,2020-01-23,227,Transfer,transfer,HR,Not needed,Missing,Processing
+user_3,2021-09-25,149,Train,fees,Sales,Missing,Missing,Executed
+user_1,2021-02-13,526,Health,card,Sales,Missing,Missing,Executed
+user_1,2021-09-15,93,ATM,card,Sales,Attached,Missing,Declined
+user_3,2020-03-19,666,Gas stations,direct_debit,IT,Attached,Filled in,Declined
+user_2,2021-11-19,642,Mobile,card,Finance,Missing,Missing,Processing
+user_2,2020-09-19,14,Travel,fees,Sales,Attached,Missing,Declined
+user_2,2021-05-06,423,Sport,taxes,Finance,Attached,Filled in,Executed
+user_1,2020-05-07,810,Train,taxes,Finance,Not needed,Filled in,Declined
+user_1,2020-07-30,874,Health,card,Sales,Attached,Missing,Executed
+user_2,2020-04-28,82,Sport,fees,Finance,Not needed,Missing,Declined
+user_3,2020-01-14,720,Transfer,direct_debit,Finance,Attached,Missing,Processing
+user_2,2020-05-20,213,Gas stations,fees,IT,Attached,Missing,Declined
+user_2,2020-10-17,446,ATM,fees,HR,Missing,Missing,Declined
+user_2,2021-10-06,104,Taxi,fees,Finance,Missing,Missing,Executed
+user_3,2020-06-14,398,Food & Grocery,fees,Sales,Not needed,Filled in,Declined
+user_2,2020-10-10,456,Train,transfer,IT,Missing,Missing,Executed
+user_3,2021-03-26,420,Train,direct_debit,HR,Missing,Filled in,Processing
+user_1,2020-12-17,113,Hotel,direct_debit,Sales,Not needed,Filled in,Processing
+user_1,2021-10-08,513,Finance,direct_debit,HR,Not needed,Missing,Processing
+user_2,2020-11-04,147,Transfer,card,Marketing,Missing,Missing,Declined
+user_3,2020-12-25,492,Transfer,taxes,Finance,Not needed,Filled in,Processing
+user_2,2021-06-06,347,Mobile,fees,HR,Missing,Filled in,Declined
+user_2,2021-08-13,643,Mobile,direct_debit,IT,Attached,Filled in,Executed
+user_3,2020-03-31,876,Transfer,card,IT,Not needed,Missing,Declined
+user_3,2020-08-04,170,Mobile,direct_debit,Finance,Not needed,Filled in,Declined
+user_3,2021-10-17,835,Food & Grocery,transfer,IT,Not needed,Missing,Declined
+user_2,2020-06-20,885,ATM,card,HR,Missing,Filled in,Executed
+user_2,2020-08-31,720,Fees,direct_debit,Marketing,Missing,Filled in,Executed
+user_1,2021-06-09,728,Restaurants,taxes,Marketing,Missing,Filled in,Processing
+user_2,2021-04-13,700,Restaurants,direct_debit,Finance,Attached,Filled in,Processing
+user_3,2021-09-01,766,Sport,transfer,IT,Missing,Missing,Processing
+user_2,2021-04-16,154,Hotel,card,Sales,Not needed,Filled in,Declined
+user_3,2021-02-09,799,Fees,transfer,HR,Attached,Filled in,Processing
+user_1,2020-05-01,12,Taxi,direct_debit,Finance,Attached,Missing,Executed
+user_1,2021-03-09,136,Sport,taxes,Sales,Attached,Missing,Declined
+user_3,2021-08-28,120,Shopping,transfer,IT,Attached,Missing,Processing
+user_3,2021-04-05,772,Gas stations,taxes,IT,Attached,Missing,Processing
+user_2,2020-10-18,110,Taxi,card,IT,Missing,Missing,Executed
+user_2,2020-12-04,836,Transfer,fees,Marketing,Missing,Missing,Executed
+user_1,2020-01-12,908,Transfer,fees,Sales,Not needed,Filled in,Declined
+user_1,2021-09-22,41,Travel,direct_debit,Finance,Attached,Missing,Executed
+user_2,2020-01-28,673,Fees,transfer,Sales,Missing,Filled in,Declined
+user_2,2021-06-06,738,Mobile,card,Sales,Attached,Filled in,Processing
+user_2,2021-10-05,898,Finance,fees,Finance,Missing,Missing,Declined
+user_1,2020-07-01,380,Restaurants,card,Marketing,Not needed,Filled in,Executed
+user_3,2020-05-25,99,Hotel,transfer,HR,Not needed,Filled in,Processing
+user_1,2021-04-08,764,Health,transfer,Finance,Missing,Filled in,Declined
+user_1,2021-12-05,509,ATM,card,HR,Attached,Filled in,Declined
+user_3,2020-11-29,824,Travel,taxes,Marketing,Missing,Missing,Processing
+user_1,2021-02-12,510,Sport,fees,Finance,Attached,Filled in,Declined
+user_1,2021-03-04,704,Restaurants,card,Sales,Not needed,Filled in,Declined
+user_3,2020-08-10,893,Taxi,fees,Finance,Not needed,Filled in,Executed
+user_2,2021-04-03,113,Transfer,transfer,IT,Attached,Missing,Declined
+user_3,2020-12-28,890,Health,card,Finance,Missing,Missing,Processing
+user_1,2020-04-18,133,Shopping,transfer,HR,Not needed,Missing,Processing
+user_3,2020-05-19,184,Gas stations,card,IT,Missing,Filled in,Declined
+user_3,2021-06-17,812,ATM,fees,Marketing,Missing,Missing,Processing
+user_1,2021-06-27,42,Travel,direct_debit,IT,Missing,Missing,Executed
+user_2,2021-05-19,144,Train,card,Finance,Missing,Filled in,Declined
+user_1,2020-09-24,635,Finance,transfer,HR,Attached,Missing,Processing
+user_3,2020-07-22,459,Taxi,transfer,HR,Not needed,Filled in,Processing
+user_2,2020-07-11,131,Finance,taxes,HR,Attached,Missing,Processing
+user_2,2020-03-13,406,Food & Grocery,transfer,Finance,Missing,Filled in,Declined
+user_1,2020-09-28,655,Food & Grocery,fees,Marketing,Attached,Filled in,Executed
+user_2,2021-08-29,590,Gas stations,transfer,IT,Attached,Missing,Executed
+user_2,2021-05-19,621,ATM,fees,HR,Missing,Missing,Processing
+user_2,2020-01-13,39,Finance,taxes,Sales,Not needed,Filled in,Declined
+user_1,2021-08-02,842,Transfer,direct_debit,IT,Not needed,Filled in,Declined
+user_2,2021-06-01,267,Restaurants,fees,Sales,Missing,Missing,Declined
+user_2,2020-04-11,610,Restaurants,taxes,IT,Attached,Missing,Executed
+user_3,2020-04-09,561,Sport,fees,HR,Missing,Missing,Executed
+user_3,2021-02-02,813,Travel,fees,Marketing,Attached,Missing,Processing
+user_1,2021-03-20,26,Fees,direct_debit,Marketing,Not needed,Missing,Executed
+user_2,2021-10-14,306,Transfer,taxes,Sales,Not needed,Filled in,Declined
+user_1,2020-12-24,656,ATM,transfer,HR,Attached,Filled in,Executed
+user_1,2021-09-30,64,Train,transfer,Sales,Attached,Missing,Executed
+user_1,2021-06-29,758,Food & Grocery,card,HR,Attached,Missing,Processing
+user_2,2021-12-22,813,Finance,direct_debit,IT,Not needed,Missing,Declined
+user_1,2020-08-09,710,Mobile,fees,HR,Not needed,Missing,Processing
+user_2,2020-05-30,119,Travel,card,Finance,Not needed,Missing,Executed
+user_1,2021-11-22,124,Health,fees,Marketing,Not needed,Missing,Processing
+user_2,2020-12-02,252,Health,transfer,Sales,Not needed,Missing,Processing
+user_3,2020-12-22,661,ATM,taxes,Marketing,Missing,Filled in,Executed
+user_2,2021-04-25,811,Finance,direct_debit,IT,Attached,Filled in,Declined
+user_3,2020-12-30,614,Shopping,taxes,Finance,Missing,Filled in,Declined
+user_3,2020-10-28,442,Food & Grocery,card,IT,Not needed,Filled in,Processing
+user_2,2020-07-20,435,Hotel,transfer,Finance,Missing,Missing,Executed
+user_2,2021-03-13,447,ATM,direct_debit,IT,Missing,Filled in,Declined
+user_2,2021-07-27,733,Transfer,direct_debit,Sales,Not needed,Missing,Declined
+user_1,2020-10-01,137,Health,card,IT,Attached,Missing,Processing
+user_3,2021-08-02,239,Transfer,direct_debit,Sales,Attached,Filled in,Processing
+user_3,2021-02-22,151,Sport,transfer,Sales,Not needed,Filled in,Processing
+user_2,2021-01-19,820,Hotel,transfer,Sales,Not needed,Missing,Declined
+user_3,2020-02-21,755,Shopping,fees,Marketing,Attached,Filled in,Executed
+user_1,2021-03-26,89,Hotel,taxes,Marketing,Attached,Missing,Executed
+user_3,2020-11-13,884,Hotel,taxes,Finance,Missing,Filled in,Processing
+user_3,2021-04-23,95,Restaurants,direct_debit,Finance,Not needed,Filled in,Declined
+user_1,2021-10-30,272,Hotel,transfer,HR,Not needed,Filled in,Processing
+user_1,2020-12-20,825,Sport,direct_debit,HR,Not needed,Filled in,Declined
+user_3,2020-07-07,153,Gas stations,transfer,IT,Attached,Filled in,Declined
+user_3,2021-10-07,436,Travel,transfer,HR,Missing,Filled in,Declined
+user_3,2020-11-01,337,Restaurants,direct_debit,Sales,Not needed,Missing,Declined
+user_2,2020-05-13,854,Finance,taxes,HR,Not needed,Missing,Executed
+user_3,2021-08-24,432,Transfer,fees,HR,Attached,Missing,Declined
+user_3,2020-06-14,615,Taxi,taxes,Marketing,Attached,Filled in,Processing
+user_2,2021-07-31,932,ATM,fees,IT,Attached,Filled in,Processing
+user_2,2021-05-29,323,Sport,taxes,IT,Missing,Filled in,Processing
+user_2,2020-10-03,535,Restaurants,taxes,IT,Attached,Missing,Executed
+user_2,2021-11-13,732,ATM,card,Marketing,Not needed,Missing,Executed
+user_2,2020-06-02,558,Fees,taxes,Marketing,Missing,Missing,Executed
+user_2,2020-09-14,865,Train,fees,IT,Not needed,Filled in,Executed
+user_3,2020-04-16,615,Shopping,taxes,Finance,Not needed,Filled in,Declined
+user_3,2021-10-12,562,Transfer,card,HR,Not needed,Missing,Executed
+user_2,2021-12-23,371,Health,taxes,IT,Not needed,Filled in,Declined
+user_3,2021-03-04,854,Restaurants,taxes,Sales,Not needed,Filled in,Declined
+user_3,2021-05-03,610,Gas stations,fees,HR,Not needed,Filled in,Declined
+user_1,2021-07-27,72,Train,fees,Sales,Missing,Filled in,Declined
+user_3,2020-04-21,511,Health,taxes,HR,Missing,Missing,Declined
+user_2,2020-07-18,453,Restaurants,fees,IT,Missing,Filled in,Processing
+user_1,2021-05-28,857,Mobile,taxes,Sales,Attached,Filled in,Processing
+user_2,2020-10-22,557,Shopping,card,Sales,Missing,Missing,Executed
+user_1,2021-07-16,492,Train,taxes,Sales,Not needed,Missing,Executed
+user_1,2021-09-08,340,Shopping,card,IT,Missing,Missing,Processing
+user_3,2020-12-14,436,Taxi,transfer,Marketing,Missing,Filled in,Processing
+user_3,2020-01-13,745,Taxi,direct_debit,Finance,Missing,Filled in,Declined
+user_2,2021-12-04,333,Sport,taxes,IT,Not needed,Filled in,Processing
+user_1,2020-03-12,932,Shopping,transfer,IT,Attached,Missing,Declined
+user_1,2021-05-31,417,Mobile,direct_debit,IT,Missing,Missing,Declined
+user_2,2021-11-28,61,Mobile,fees,HR,Attached,Missing,Executed
+user_1,2020-08-01,294,Transfer,transfer,Finance,Not needed,Missing,Executed
+user_2,2021-04-18,897,Travel,fees,Sales,Not needed,Missing,Executed
+user_2,2020-04-26,916,Train,transfer,Marketing,Not needed,Missing,Executed
+user_2,2021-11-12,925,Shopping,taxes,Marketing,Attached,Filled in,Executed
+user_1,2020-02-12,855,Finance,fees,Sales,Missing,Missing,Declined
+user_1,2020-12-04,590,Transfer,direct_debit,IT,Missing,Missing,Processing
+user_2,2020-12-01,13,Gas stations,fees,IT,Missing,Filled in,Processing
+user_1,2021-01-26,40,Restaurants,fees,HR,Attached,Filled in,Executed
+user_1,2020-03-20,128,Shopping,taxes,HR,Attached,Missing,Executed
+user_1,2021-11-11,983,Sport,fees,IT,Missing,Filled in,Executed
+user_1,2021-08-27,490,ATM,card,IT,Not needed,Filled in,Executed
+user_2,2021-04-26,389,Food & Grocery,card,Sales,Not needed,Missing,Declined
+user_3,2021-07-16,560,Shopping,fees,Sales,Missing,Filled in,Executed
+user_3,2021-09-17,325,Transfer,transfer,Marketing,Missing,Filled in,Executed
+user_3,2020-09-22,506,Travel,taxes,Sales,Not needed,Filled in,Processing
+user_1,2020-03-29,971,Mobile,direct_debit,Marketing,Missing,Missing,Declined
+user_2,2021-02-15,680,Travel,taxes,IT,Not needed,Filled in,Processing
+user_2,2021-11-11,595,Mobile,card,HR,Missing,Missing,Processing
+user_1,2020-10-03,864,Health,fees,HR,Missing,Filled in,Executed
+user_1,2021-03-01,389,Hotel,card,Sales,Attached,Filled in,Processing
+user_2,2021-08-04,354,Food & Grocery,taxes,Marketing,Missing,Missing,Declined
+user_3,2020-07-02,359,Sport,direct_debit,Finance,Attached,Filled in,Executed
+user_1,2021-01-13,219,Mobile,fees,Marketing,Not needed,Missing,Processing
+user_3,2020-06-18,3,Gas stations,direct_debit,Marketing,Attached,Filled in,Processing
+user_1,2020-09-30,121,Fees,card,HR,Missing,Filled in,Processing
+user_3,2020-06-04,519,Health,fees,Marketing,Missing,Filled in,Declined
+user_1,2020-12-24,893,Transfer,card,Sales,Not needed,Missing,Processing
+user_3,2020-03-29,751,Train,card,IT,Not needed,Missing,Processing
+user_3,2021-02-16,809,Train,taxes,IT,Attached,Filled in,Processing
+user_1,2020-06-16,504,Sport,direct_debit,Marketing,Not needed,Filled in,Processing
+user_2,2021-10-25,124,Finance,transfer,Sales,Not needed,Filled in,Processing
+user_3,2020-04-01,598,Shopping,taxes,Marketing,Not needed,Missing,Executed
+user_3,2020-10-29,774,Finance,card,Finance,Attached,Missing,Processing
+user_3,2020-04-01,54,Sport,card,HR,Attached,Missing,Executed
+user_2,2020-12-31,906,Transfer,taxes,Sales,Attached,Missing,Executed
+user_3,2020-06-24,223,Train,transfer,Finance,Not needed,Filled in,Executed
+user_1,2021-03-01,245,Transfer,card,Finance,Attached,Missing,Processing
+user_2,2020-10-28,401,Health,taxes,Marketing,Not needed,Missing,Processing
+user_1,2021-08-03,263,Taxi,card,HR,Missing,Filled in,Declined
+user_2,2021-07-22,979,Travel,direct_debit,Finance,Attached,Missing,Declined
+user_3,2020-12-10,200,Sport,transfer,Sales,Missing,Filled in,Declined
+user_1,2020-11-28,175,Travel,taxes,HR,Missing,Filled in,Executed
+user_2,2021-08-02,373,Food & Grocery,taxes,HR,Missing,Filled in,Processing
+user_3,2021-01-22,386,Mobile,transfer,Sales,Attached,Filled in,Processing
+user_2,2021-10-12,34,Train,fees,IT,Attached,Filled in,Processing
+user_3,2021-09-27,636,Food & Grocery,fees,Sales,Missing,Missing,Executed
+user_1,2020-03-10,930,Travel,taxes,HR,Not needed,Filled in,Processing
+user_3,2021-08-09,832,Hotel,card,Sales,Missing,Missing,Processing
+user_2,2020-10-29,185,Taxi,transfer,Finance,Missing,Missing,Declined
+user_3,2021-06-10,402,Mobile,direct_debit,HR,Attached,Filled in,Declined
+user_3,2021-05-27,448,Restaurants,direct_debit,Marketing,Missing,Filled in,Processing
+user_1,2020-07-14,901,Shopping,taxes,Sales,Not needed,Missing,Executed
+user_2,2020-04-27,618,Taxi,taxes,Marketing,Attached,Filled in,Declined
+user_2,2021-05-22,964,Finance,transfer,Marketing,Not needed,Missing,Processing
+user_1,2021-07-03,843,ATM,direct_debit,Finance,Attached,Missing,Declined
+user_3,2021-12-28,429,Transfer,direct_debit,HR,Not needed,Missing,Executed
+user_2,2021-09-23,907,Food & Grocery,taxes,Marketing,Attached,Missing,Processing
+user_3,2021-06-14,11,Fees,taxes,Finance,Missing,Filled in,Declined
+user_3,2021-08-21,660,Food & Grocery,transfer,HR,Attached,Missing,Executed
+user_3,2021-08-07,142,Food & Grocery,transfer,HR,Not needed,Missing,Executed
+user_3,2021-10-30,311,Travel,fees,Sales,Attached,Missing,Declined
+user_3,2021-03-31,214,Travel,card,IT,Not needed,Missing,Declined
+user_2,2020-06-21,359,Shopping,fees,Marketing,Not needed,Filled in,Declined
+user_3,2020-10-04,128,Food & Grocery,direct_debit,Finance,Missing,Missing,Executed
+user_1,2020-09-07,762,Sport,card,Marketing,Not needed,Filled in,Executed
+user_2,2021-01-30,324,Transfer,direct_debit,IT,Not needed,Filled in,Executed
+user_1,2020-08-01,748,ATM,direct_debit,IT,Missing,Filled in,Executed
+user_3,2020-12-23,886,Taxi,direct_debit,Finance,Not needed,Filled in,Declined
+user_3,2021-10-03,944,Restaurants,fees,Sales,Attached,Missing,Declined
+user_2,2021-01-06,112,Mobile,taxes,Marketing,Missing,Filled in,Processing
+user_1,2021-09-26,660,Shopping,fees,IT,Attached,Missing,Processing
+user_2,2020-03-23,421,Train,card,Sales,Missing,Missing,Declined
+user_2,2021-02-22,555,Finance,direct_debit,Sales,Not needed,Missing,Executed
+user_1,2020-07-31,721,Hotel,direct_debit,HR,Attached,Filled in,Declined
+user_2,2020-03-01,692,Finance,fees,Sales,Attached,Missing,Processing
+user_1,2021-12-25,80,Health,fees,HR,Not needed,Filled in,Declined
+user_3,2021-04-07,805,Fees,taxes,Marketing,Missing,Missing,Processing
+user_2,2021-12-20,925,Food & Grocery,card,Sales,Not needed,Filled in,Processing
+user_3,2021-07-03,984,Train,fees,Finance,Attached,Missing,Processing
+user_3,2021-11-23,48,Transfer,fees,IT,Missing,Missing,Processing
+user_3,2020-12-20,986,Shopping,fees,Sales,Not needed,Missing,Processing
+user_2,2021-04-10,195,ATM,direct_debit,IT,Missing,Missing,Executed
+user_3,2021-01-30,4,Taxi,fees,Sales,Attached,Missing,Executed
+user_2,2021-11-10,458,Train,transfer,Marketing,Attached,Missing,Executed
+user_3,2020-02-24,718,Sport,taxes,Marketing,Not needed,Filled in,Declined
+user_3,2021-07-29,602,Gas stations,taxes,Sales,Missing,Filled in,Executed
+user_1,2020-12-03,898,Transfer,transfer,Sales,Attached,Filled in,Declined
+user_1,2021-09-03,327,Travel,taxes,Finance,Not needed,Filled in,Processing
+user_1,2021-02-15,771,Sport,direct_debit,Sales,Missing,Missing,Processing
+user_2,2021-10-30,522,Finance,direct_debit,Sales,Attached,Missing,Processing
+user_1,2020-05-16,84,Shopping,direct_debit,Sales,Missing,Filled in,Processing
+user_1,2021-10-23,915,Shopping,direct_debit,IT,Missing,Filled in,Executed
+user_2,2021-06-26,46,Travel,fees,Marketing,Missing,Filled in,Processing
+user_1,2021-07-22,768,Hotel,transfer,HR,Missing,Filled in,Executed
+user_2,2020-01-16,977,Train,direct_debit,IT,Attached,Missing,Declined
+user_2,2020-07-20,331,ATM,fees,IT,Attached,Missing,Declined
+user_3,2021-03-06,488,Finance,direct_debit,HR,Attached,Missing,Executed
+user_3,2021-01-03,486,Food & Grocery,transfer,Marketing,Missing,Filled in,Executed
+user_1,2021-11-29,293,Finance,fees,HR,Not needed,Missing,Declined
+user_3,2020-06-10,49,Food & Grocery,direct_debit,HR,Attached,Filled in,Processing
+user_1,2020-11-21,855,Shopping,fees,HR,Attached,Missing,Declined
+user_2,2021-12-30,415,Mobile,card,Sales,Attached,Filled in,Executed
+user_2,2020-09-21,425,Gas stations,fees,HR,Not needed,Missing,Declined
+user_2,2020-10-28,866,Taxi,transfer,Finance,Missing,Missing,Executed
+user_1,2021-10-04,596,Train,direct_debit,Finance,Missing,Filled in,Executed
+user_2,2020-03-23,998,Train,transfer,Sales,Attached,Filled in,Processing
+user_3,2021-12-26,498,Travel,transfer,IT,Missing,Missing,Declined
+user_1,2020-08-09,234,Sport,card,HR,Missing,Filled in,Executed
+user_1,2021-09-12,391,Travel,card,HR,Attached,Missing,Processing
+user_2,2020-04-24,509,ATM,fees,HR,Missing,Missing,Processing
+user_1,2020-10-02,878,Taxi,direct_debit,IT,Missing,Filled in,Declined
+user_1,2020-12-03,158,Shopping,card,IT,Not needed,Filled in,Declined
+user_1,2020-08-05,292,Food & Grocery,card,Finance,Attached,Filled in,Executed
+user_3,2021-11-14,494,Health,fees,HR,Not needed,Missing,Declined
+user_3,2020-10-31,810,Shopping,fees,IT,Missing,Missing,Executed
+user_3,2021-08-02,280,Health,transfer,Sales,Not needed,Filled in,Processing
+user_3,2020-07-22,82,Food & Grocery,card,IT,Missing,Filled in,Processing
+user_3,2021-12-21,882,Mobile,direct_debit,Finance,Attached,Missing,Executed
+user_2,2020-07-29,46,Hotel,card,Sales,Attached,Missing,Processing
+user_2,2021-04-07,42,Shopping,direct_debit,HR,Attached,Filled in,Declined
+user_1,2020-06-15,468,Fees,transfer,Sales,Attached,Filled in,Declined
+user_3,2021-06-23,1,Travel,direct_debit,Marketing,Attached,Missing,Declined
+user_1,2020-06-17,960,Shopping,direct_debit,HR,Missing,Filled in,Processing
+user_3,2020-05-23,533,Restaurants,direct_debit,Finance,Missing,Missing,Executed
+user_1,2021-12-03,704,Taxi,taxes,Finance,Not needed,Missing,Declined
+user_1,2021-10-08,655,ATM,card,Marketing,Missing,Missing,Declined
+user_1,2020-04-07,576,Taxi,fees,Sales,Missing,Missing,Processing
+user_3,2021-09-13,547,Shopping,taxes,Finance,Not needed,Missing,Processing
+user_2,2020-09-21,93,Health,fees,Sales,Attached,Missing,Declined
+user_1,2021-10-25,393,Hotel,taxes,Sales,Attached,Missing,Processing
+user_1,2020-07-17,910,Mobile,fees,IT,Not needed,Filled in,Executed
+user_3,2020-01-04,553,Food & Grocery,fees,HR,Not needed,Missing,Processing
+user_2,2021-07-26,532,Fees,fees,Sales,Not needed,Missing,Declined
+user_1,2021-09-24,897,Taxi,card,Marketing,Attached,Filled in,Executed
+user_2,2020-06-30,361,Mobile,taxes,HR,Attached,Filled in,Processing
+user_2,2021-09-28,251,Health,card,Marketing,Missing,Missing,Executed
+user_2,2021-10-31,131,ATM,fees,IT,Not needed,Missing,Declined
+user_1,2020-04-29,46,Food & Grocery,direct_debit,HR,Not needed,Filled in,Executed
+user_2,2020-08-13,416,Fees,taxes,HR,Attached,Filled in,Declined
+user_2,2021-09-21,585,Fees,card,Marketing,Not needed,Missing,Executed
+user_3,2021-10-22,836,Transfer,taxes,Marketing,Missing,Filled in,Processing
+user_2,2021-02-08,23,Health,card,Finance,Missing,Missing,Processing
+user_1,2020-10-03,685,Travel,card,Sales,Missing,Filled in,Declined
+user_3,2020-07-26,538,Hotel,transfer,Sales,Attached,Missing,Declined
+user_1,2021-04-19,142,ATM,direct_debit,Marketing,Missing,Missing,Executed
+user_2,2021-10-21,344,Shopping,transfer,IT,Missing,Missing,Processing
+user_1,2020-06-10,463,Sport,taxes,Finance,Not needed,Filled in,Declined
+user_1,2021-04-12,199,ATM,direct_debit,Finance,Not needed,Filled in,Processing
+user_3,2020-09-03,207,Health,direct_debit,Sales,Missing,Missing,Processing
+user_2,2020-01-05,812,Sport,transfer,IT,Not needed,Filled in,Declined
+user_3,2020-03-22,902,Fees,transfer,Finance,Attached,Filled in,Processing
+user_1,2021-07-28,248,Hotel,direct_debit,HR,Not needed,Filled in,Executed
+user_2,2020-01-02,603,Gas stations,transfer,IT,Not needed,Missing,Processing
+user_2,2020-04-13,149,Train,direct_debit,HR,Attached,Filled in,Processing
+user_1,2021-01-15,123,Health,taxes,HR,Missing,Filled in,Processing
+user_1,2020-03-19,877,Restaurants,transfer,Sales,Missing,Filled in,Processing
+user_2,2020-01-25,834,Sport,fees,Finance,Missing,Missing,Executed
+user_1,2020-11-09,343,Shopping,fees,HR,Not needed,Missing,Declined
+user_1,2021-09-20,578,Train,taxes,Marketing,Not needed,Filled in,Processing
+user_1,2020-02-19,513,Food & Grocery,transfer,HR,Not needed,Filled in,Processing
+user_1,2020-09-20,94,Food & Grocery,transfer,Marketing,Missing,Missing,Processing
+user_2,2020-11-04,931,Taxi,transfer,Finance,Not needed,Filled in,Executed
+user_3,2020-12-30,401,Train,card,Finance,Missing,Missing,Executed
+user_3,2020-06-07,850,ATM,direct_debit,Finance,Missing,Filled in,Executed
+user_2,2020-09-23,854,Transfer,transfer,HR,Attached,Filled in,Processing
