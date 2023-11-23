@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+langchain
+autogen
+openai
+python-dotenv
+streamlit
+-e .
