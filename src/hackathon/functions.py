@@ -6,7 +6,7 @@ from pandasai import SmartDataframe
 from pandasai.llm import OpenAI
 import os
 import math
-
+from flask import Flask, request, jsonify
 
 # For the agents
 from langchain.agents.agent_types import AgentType
@@ -86,20 +86,20 @@ def prompt_to_filter(prompt, data_to_filter):
     retry_count = 0
     max_retries = 5
     wait_seconds = 2  # Time to wait between retries
-
-    data = create_temporal_features(data_to_filter, "date")
+    data = create_temporal_features(data_to_filter.reset_index(drop = True), "date")
     while retry_count < max_retries:
         try:
             llm = OpenAI(OPENAI_API_KEY)
             df = SmartDataframe(
-                data, config={"llm": llm, "llm_model": "gpt-4-1106-preview"}
+                data, config={"llm": llm, "llm_model": "gpt-3.5-turbo-0613"}
             )
             response = df.chat(prompt).convert_dtypes()
             return response
         except Exception as e:
             retry_count += 1
             if retry_count >= max_retries:
-                return "The function did not work, please let the user know that we are not able to filter the transactions."
+                print("Error: Maximum number of retries reached.")
+                return pd.DataFrame()
             time.sleep(wait_seconds)
 
 
@@ -127,7 +127,7 @@ def dataframe_insights(prompt, data_to_filter):
     max_retries = 5
     wait_seconds = 2  # Time to wait between retries
 
-    data = create_temporal_features(data_to_filter, "date")
+    data = create_temporal_features(data_to_filter.reset_index(drop = True), "date")
 
     while retry_count < max_retries:
         try:
@@ -144,12 +144,12 @@ def dataframe_insights(prompt, data_to_filter):
         except Exception as e:
             retry_count += 1
             if retry_count == max_retries:
-                return "The function did not work, please let the user know that we are not able to give an answer to this question."
+                return pd.DataFrame()
             time.sleep(wait_seconds)
 
 # Create or load assistant
 def create_assistant(client):
-    assistant_file_path = "assistant.json"
+    assistant_file_path = "/Users/arthur.cruiziat/dev/Qonto_hackathon/src/hackathon/assistant.json"
 
     # Load existing assistant if file exists
     if os.path.exists(assistant_file_path):
@@ -158,8 +158,8 @@ def create_assistant(client):
             assistant_id = assistant_data["assistant_id"]
             print("Loaded existing assistant ID.")
     else:
+        print("Creating a new assistant...")
         # Create a new assistant if file does not exist
-
         assistant = client.beta.assistants.create(
             instructions=prompts.assistant_instructions,
             model="gpt-4-1106-preview",
@@ -220,7 +220,6 @@ def create_assistant(client):
 
     return assistant_id
 
-
 def start_conversation(client):
     """
     Starts a new conversation and creates a new thread.
@@ -238,7 +237,7 @@ def start_conversation(client):
     return {"thread_id": thread.id}
 
 
-def chat(client, thread_id, user_input, data_filterered):
+def chat(client, thread_id, user_input, data_filtered, assistant_id):
     """
     Handles chat interactions within a specified thread.
 
@@ -260,10 +259,9 @@ def chat(client, thread_id, user_input, data_filterered):
     Note: This function assumes that the 'client' and 'assistant_id' variables are already defined
     and accessible in its scope.
     """
-    
+
     if not thread_id:
         print("Error: Missing thread_id")
-        return jsonify({"error": "Missing thread_id"}), 400
 
     print(f"Received message: {user_input} for thread ID: {thread_id}")
 
@@ -286,36 +284,45 @@ def chat(client, thread_id, user_input, data_filterered):
         if run_status.status == "completed":
             break
         elif run_status.status == "requires_action":
-            # Handle the function call
-            for tool_call in run_status.required_action.submit_tool_outputs.tool_calls:
-                if tool_call.function.name == "dataframe_insights":
-                    # Process solar panel calculations
-                    arguments = json.loads(tool_call.function.arguments)
-                    output = dataframe_insights(arguments["prompt"], data_filterered)
-                    client.beta.threads.runs.submit_tool_outputs(
-                        thread_id=thread_id,
-                        run_id=run.id,
-                        tool_outputs=[
-                            {"tool_call_id": tool_call.id, "output": json.dumps(output)}
-                        ],
-                    )
-                elif tool_call.function.name == "prompt_to_filter":
-                    # Process lead creation
-                    arguments = json.loads(tool_call.function.arguments)
-                    filtered_dataframe = prompt_to_filter(
-                        arguments["prompt"], data_filterered
-                    )
+            # Initialize a dictionary to store outputs for each tool call
+            tool_outputs = []
 
-                    client.beta.threads.runs.submit_tool_outputs(
-                        thread_id=thread_id,
-                        run_id=run.id,
-                        tool_outputs=[
-                            {
-                                "tool_call_id": tool_call.id,
-                                "output": json.dumps(filtered_dataframe.to_json()),
-                            }
-                        ],
-                    )
+            # Handle the function calls
+            print(len(run_status.required_action.submit_tool_outputs.tool_calls))
+            for tool_call in run_status.required_action.submit_tool_outputs.tool_calls:
+                arguments = json.loads(tool_call.function.arguments)
+                print(arguments["prompt"])
+
+                output = None
+                if tool_call.function.name == "dataframe_insights":
+                    output = dataframe_insights(arguments["prompt"], data_filtered)
+                elif tool_call.function.name == "prompt_to_filter":
+                    output = prompt_to_filter(arguments["prompt"], data_filtered)
+                    final_filtered_dataframe = output  # Update the final DataFrame
+
+                # Add the output to the tool_outputs list
+                if output is not None:
+                    if isinstance(output, pd.DataFrame):
+                        # Convert DataFrame to a JSON string
+                        output_json = output.to_json(orient='records')
+                        tool_outputs.append({
+                            "tool_call_id": tool_call.id,
+                            "output": output_json
+                        })
+                    else:
+                        # For other data types, just convert to string
+                        tool_outputs.append({
+                            "tool_call_id": tool_call.id,
+                            "output": str(output)
+                        })
+
+            # Submit all tool outputs at once
+            if tool_outputs:
+                client.beta.threads.runs.submit_tool_outputs(
+                    thread_id=thread_id,
+                    run_id=run.id,
+                    tool_outputs=tool_outputs
+                )
             time.sleep(1)  # Wait for a second before checking again
 
     # Retrieve and return the latest message from the assistant
@@ -323,4 +330,4 @@ def chat(client, thread_id, user_input, data_filterered):
     response = messages.data[0].content[0].text.value
 
     print(f"Assistant response: {response}")
-    return {"response": response, "data_filterered": filtered_dataframe}
+    return {"response": response, "data_filterered": final_filtered_dataframe}

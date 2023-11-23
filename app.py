@@ -6,6 +6,9 @@ from langchain.agents import AgentType
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain.callbacks import StreamlitCallbackHandler
 from langchain.chat_models import ChatOpenAI
+import hackathon.functions as f
+from hackathon.prompts import *
+import openai as openai
 import os
 
 
@@ -19,28 +22,18 @@ st.set_page_config(page_title="🚀 Transaction Filter")
 st.title("🚀 Get a better understanding of your transactions")
 
 @st.cache_data
-def get_UN_data():
+def get_data():
     df = pd.read_csv(trx_path)
     df['date'] = pd.to_datetime(df['date'])
     return df.set_index("user")
 
-def start_conversation():
-    thread = {'thead_id': 'thread_3ROE0kjAGABFuOVMzLdL0N7d'}
-    return thread
+client = openai.OpenAI(api_key=OPENAI_API_KEY)
+assistant_id = f.create_assistant(client)
+thread = f.start_conversation(client)
 
-def chat(thread_id, user_input, data_filterered):
-    if "year_filter" not in st.session_state.keys():
-        st.session_state.year_filter = [int(user_input)]
-    else:
-        st.session_state.year_filter.append(int(user_input))
 
-    response = 'We filtered your data on the following years: '+', '.join(map(str, st.session_state.year_filter))+'. Would you like to add another year?'
-    filtered_dataframe = data_filterered[data_filterered['date'].dt.year.isin(st.session_state.year_filter)]
-
-    return {"response": response, "data_filterered": filtered_dataframe}
-
-df = get_UN_data()
-
+df = get_data()
+col_to_display = df.columns.tolist()
 
 
 # Using "with" notation
@@ -53,11 +46,14 @@ with st.sidebar:
         placeholder="Select user ...",
         )
     st.write('You selected:', user)
+    if user:
+        st.session_state.data_init = df.loc[user].reset_index(drop=True)
+        st.session_state.data_displayed = st.session_state.data_init.copy()
+
 
 def clear_filters():
     st.session_state.data_displayed = st.session_state.data_init.copy()
     del st.session_state['messages']
-    del st.session_state['year_filter']
     del st.session_state['data_displayed']
 st.sidebar.button('Clear Filters', on_click=clear_filters)
 
@@ -65,27 +61,32 @@ st.sidebar.button('Clear Filters', on_click=clear_filters)
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
-    st.session_state.messages = [{"role": "assistant", "content": "You don't have any year filters yet, would you like to specify a year?"}]
+    st.session_state.messages = [{"role": "assistant", "content": "How can I help you?"}]
 
 
 
 
-prompt = st.chat_input("Enter a year :")
+prompt = st.chat_input("Enter your request :")
 
 if not user:
     st.error("Please select at least one user.")
 else:
-    st.session_state.data_init = df.loc[user]
+    #st.session_state.data_init = df.loc[user].reset_index(drop=True)
     if "data_displayed" not in st.session_state.keys():
         st.session_state.data_displayed = st.session_state.data_init.copy()
     if prompt:
-        response = chat(start_conversation(), prompt, st.session_state.data_init)
-        st.session_state.data_displayed = response['data_filterered']
-        st.session_state.messages.append({"role": "assistant", "content": response['response']})    
-    # Display or clear chat messages
+        try:
+            response = f.chat(client, thread_id = thread['thread_id'], user_input = prompt, data_filtered = st.session_state.data_init, assistant_id=assistant_id)
+            st.session_state.data_displayed = response['data_filterered'][col_to_display].copy()
+            st.session_state.messages.append({"role": "assistant", "content": response['response']})    
+            with st.chat_message('user'):
+                st.write(prompt)
+        except:
+             st.session_state.messages.append({"role": "assistant", "content": "Unable to fecth answer. Please try again. All transactions are displayed."})
+
+
     message = st.session_state.messages[-1]
     with st.chat_message(message["role"]):
         st.write(message["content"])
     
     st.write("### Transactions (€)", st.session_state.data_displayed.sort_values(by = 'date').reset_index(drop=True))
-
